@@ -1,0 +1,5 @@
+
+#define RAD_TO_DEG  57.295779f
+#define DEG_TO_RAD	0.0174532925f
+
+#define MAX_SYSTEM 3

@@ -1,0 +1,1340 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AAI_DMA_CTRL_ULTRA	inc/ultra_snd.h	30;"	d
+ACC_FS_SEL	inc/define_J.h	50;"	d
+ACC_LSB	inc/define_J.h	57;"	d
+ADC_READ_1	inc/ms5607.h	/^	ADC_READ_1 = 0x00,$/;"	e	enum:__anon4
+ADC_READ_2	inc/ms5607.h	/^	ADC_READ_2 = 0x01,$/;"	e	enum:__anon4
+ADC_READ_3	inc/ms5607.h	/^	ADC_READ_3 = 0x02,$/;"	e	enum:__anon4
+ADC_READ_4	inc/ms5607.h	/^	ADC_READ_4 = 0x03,$/;"	e	enum:__anon4
+BATTERY	inc/ultra_snd.h	60;"	d
+BATTERY_INIT	inc/ultra_snd.h	69;"	d
+BINDIR	Makefile	/^BINDIR=bin$/;"	m
+B_EKF	main.cpp	/^bool B_EKF=true;$/;"	v
+B_cancel	main.cpp	/^bool B_cancel=true;$/;"	v
+B_print	main.cpp	/^bool B_print=true;$/;"	v
+B_throttle	main.cpp	/^bool B_throttle= true;$/;"	v
+C1	inc/ms5607.h	/^	uint16_t C1;  \/\/ Pressure sensitivity  SENS$/;"	m	struct:__anon3
+C2	inc/ms5607.h	/^	uint16_t C2;  \/\/ Pressure offset  OFF$/;"	m	struct:__anon3
+C3	inc/ms5607.h	/^	uint16_t C3;  \/\/ Temperature coefficient of pressure sensitivity  TCS$/;"	m	struct:__anon3
+C4	inc/ms5607.h	/^	uint16_t C4;  \/\/ Temperature coefficient of pressure offset  TCO$/;"	m	struct:__anon3
+C5	inc/ms5607.h	/^	uint16_t C5;  \/\/ Reference temperature$/;"	m	struct:__anon3
+C6	inc/ms5607.h	/^	uint16_t C6;  \/\/ Temperature coefficient of the temperature$/;"	m	struct:__anon3
+CC	Makefile	/^CC=arm-none-linux-gnueabi-g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-c -Wall -lm -I.\/ -I.\/inc -I.\/src  -lpthread  -lrt$/;"	m
+COMPLEMANTARY	inc/HAL_sensor_J.h	/^COMPLEMANTARY,$/;"	e	enum:__anon6
+CONFIG_I2C	src/i2c_J.cpp	18;"	d	file:
+CONTROL_CMD	main.cpp	/^}CONTROL_CMD;$/;"	t	typeref:enum:__anon2	file:
+CONV_C1_OSR_1024	inc/ms5607.h	/^	CONV_C1_OSR_1024 = 0x4,$/;"	e	enum:__anon4
+CONV_C1_OSR_2048	inc/ms5607.h	/^	CONV_C1_OSR_2048 = 0x46,$/;"	e	enum:__anon4
+CONV_C1_OSR_256	inc/ms5607.h	/^	CONV_C1_OSR_256 = 0x40,$/;"	e	enum:__anon4
+CONV_C1_OSR_4096	inc/ms5607.h	/^	CONV_C1_OSR_4096 = 0x48,$/;"	e	enum:__anon4
+CONV_C1_OSR_512	inc/ms5607.h	/^	CONV_C1_OSR_512 = 0x42,$/;"	e	enum:__anon4
+CONV_C2_OSR_1024	inc/ms5607.h	/^	CONV_C2_OSR_1024 = 0x54,$/;"	e	enum:__anon4
+CONV_C2_OSR_2048	inc/ms5607.h	/^	CONV_C2_OSR_2048 = 0x56,$/;"	e	enum:__anon4
+CONV_C2_OSR_256	inc/ms5607.h	/^	CONV_C2_OSR_256 = 0x50,$/;"	e	enum:__anon4
+CONV_C2_OSR_4096	inc/ms5607.h	/^	CONV_C2_OSR_4096 = 0x58,$/;"	e	enum:__anon4
+CONV_C2_OSR_512	inc/ms5607.h	/^	CONV_C2_OSR_512 = 0x52,$/;"	e	enum:__anon4
+CRC	inc/ms5607.h	/^	uint16_t CRC;$/;"	m	struct:__anon3
+C_Back	main.cpp	/^    C_Back=4,$/;"	e	enum:__anon2	file:
+C_Down	main.cpp	/^    C_Down=2,$/;"	e	enum:__anon2	file:
+C_Emergency	main.cpp	/^    C_Emergency=0,$/;"	e	enum:__anon2	file:
+C_Forward	main.cpp	/^    C_Forward=3,$/;"	e	enum:__anon2	file:
+C_Left	main.cpp	/^    C_Left=5,$/;"	e	enum:__anon2	file:
+C_Right	main.cpp	/^    C_Right=6,$/;"	e	enum:__anon2	file:
+C_UP	main.cpp	/^    C_UP=1,$/;"	e	enum:__anon2	file:
+C_YawL	main.cpp	/^    C_YawL=7,$/;"	e	enum:__anon2	file:
+C_YawR	main.cpp	/^    C_YawR=8,$/;"	e	enum:__anon2	file:
+DEBUG	main.cpp	58;"	d	file:
+DEBUG_PRINT	inc/MPU6050_6Axis_MotionApps20.h	66;"	d
+DEBUG_PRINT	inc/MPU6050_6Axis_MotionApps20.h	71;"	d
+DEBUG_PRINTF	inc/MPU6050_6Axis_MotionApps20.h	67;"	d
+DEBUG_PRINTF	inc/MPU6050_6Axis_MotionApps20.h	72;"	d
+DEBUG_PRINTLN	inc/MPU6050_6Axis_MotionApps20.h	68;"	d
+DEBUG_PRINTLN	inc/MPU6050_6Axis_MotionApps20.h	73;"	d
+DEBUG_PRINTLNF	inc/MPU6050_6Axis_MotionApps20.h	69;"	d
+DEBUG_PRINTLNF	inc/MPU6050_6Axis_MotionApps20.h	74;"	d
+DEG_TO_RAD	inc/define_J.h	11;"	d
+DENOMINATOR	inc/lpf_J.h	11;"	d
+DENOMINATOR	src/lpf_J.c	28;"	d	file:
+DENOMINATOR	test/iir_test.c	12;"	d	file:
+DEV_MS	inc/ms5607.h	11;"	d
+DEV_ULTRA	inc/battery_J.h	6;"	d
+DLPF_CFG	inc/define_J.h	41;"	d
+DMP_FIFO_RATE	inc/MPU6050_6Axis_MotionApps20.h	249;"	d
+DYE_DT_LPF_FACTOR	src/HAL_pid_J.cpp	714;"	d	file:
+Def_pi	src/Extended_Kalman.cpp	333;"	d	file:
+Def_pi	test/Extended_Kalman.c	260;"	d	file:
+Def_psi	src/Extended_Kalman.cpp	335;"	d	file:
+Def_psi	test/Extended_Kalman.c	262;"	d	file:
+Def_theta	src/Extended_Kalman.cpp	334;"	d	file:
+Def_theta	test/Extended_Kalman.c	261;"	d	file:
+Def_x	src/Extended_Kalman.cpp	330;"	d	file:
+Def_x	test/Extended_Kalman.c	257;"	d	file:
+Def_y	src/Extended_Kalman.cpp	331;"	d	file:
+Def_y	test/Extended_Kalman.c	258;"	d	file:
+Def_z	src/Extended_Kalman.cpp	332;"	d	file:
+Def_z	test/Extended_Kalman.c	259;"	d	file:
+EIGHT_PULSE	inc/ultra_snd.h	/^	EIGHT_PULSE,$/;"	e	enum:pulse_mode
+FALSE	inc/I2Cdev.h	50;"	d
+FOUR_PULSE	inc/ultra_snd.h	/^	FOUR_PULSE = 0,$/;"	e	enum:pulse_mode
+FUZZY_TABLE	inc/HAL_pid_J.h	26;"	d
+GPIO_DEV	inc/gpio_J.h	11;"	d
+GPIO_DIRECTION	inc/gpio2_ioctl.h	83;"	d
+GPIO_INPUT	inc/gpio2_ioctl.h	/^	GPIO_INPUT = 0,				\/\/!< Pin configured for input$/;"	e	enum:gpio_mode
+GPIO_IRQ_FREE	inc/gpio2_ioctl.h	101;"	d
+GPIO_IRQ_INIT	inc/gpio2_ioctl.h	100;"	d
+GPIO_IRQ_TYPE_EDGE_BOTH	inc/gpio2_ioctl.h	/^	GPIO_IRQ_TYPE_EDGE_BOTH = 2,$/;"	e	enum:gpio_irq_mode
+GPIO_IRQ_TYPE_EDGE_FALLING	inc/gpio2_ioctl.h	/^	GPIO_IRQ_TYPE_EDGE_FALLING = 1,$/;"	e	enum:gpio_irq_mode
+GPIO_IRQ_TYPE_EDGE_RISING	inc/gpio2_ioctl.h	/^	GPIO_IRQ_TYPE_EDGE_RISING = 0,$/;"	e	enum:gpio_irq_mode
+GPIO_IRQ_TYPE_LEVEL_HIGH	inc/gpio2_ioctl.h	/^	GPIO_IRQ_TYPE_LEVEL_HIGH = 3,$/;"	e	enum:gpio_irq_mode
+GPIO_IRQ_TYPE_LEVEL_LOW	inc/gpio2_ioctl.h	/^	GPIO_IRQ_TYPE_LEVEL_LOW = 4,$/;"	e	enum:gpio_irq_mode
+GPIO_IRQ_WAIT	inc/gpio2_ioctl.h	102;"	d
+GPIO_MAGIC	inc/gpio2_ioctl.h	76;"	d
+GPIO_OUTPUT_HIGH	inc/gpio2_ioctl.h	/^	GPIO_OUTPUT_HIGH,			\/\/!< Pin configured for output with high level$/;"	e	enum:gpio_mode
+GPIO_OUTPUT_LOW	inc/gpio2_ioctl.h	/^	GPIO_OUTPUT_LOW,			\/\/!< Pin configured for output with low level$/;"	e	enum:gpio_mode
+GPIO_READ	inc/gpio2_ioctl.h	90;"	d
+GPIO_WRITE	inc/gpio2_ioctl.h	99;"	d
+GRAVITY	inc/define_J.h	20;"	d
+GYRO_FS_SEL	inc/define_J.h	67;"	d
+GYRO_LSB	inc/define_J.h	75;"	d
+GpioDir	src/gpio_J.cpp	/^void GpioDir(int pin,enum gpio_mode mode){$/;"	f
+GpioOpen	src/gpio_J.cpp	/^void GpioOpen(){$/;"	f
+GpioWrite	src/gpio_J.cpp	/^void GpioWrite(int pin, int value){$/;"	f
+GravityToEuler	src/Extended_Kalman.cpp	/^int GravityToEuler(float_j_t a_x, float_j_t a_y, float_j_t a_z, float_j_t z_k[][3])$/;"	f
+GravityToEuler	test/Extended_Kalman.c	/^int GravityToEuler(float_j_t a_x, float_j_t a_y, float_j_t a_z, float_j_t z_k[][3])$/;"	f
+HDR_ic	src/HAL_sensor_J.cpp	116;"	d	file:
+HSR_ic	src/HAL_sensor_J.cpp	82;"	d	file:
+I2C_DEV_DRIVER	inc/i2c_J.h	4;"	d
+I2Cdev	inc/I2Cdev.h	/^class I2Cdev {$/;"	c
+I2Cdev	src/I2Cdev.cpp	/^I2Cdev::I2Cdev() {$/;"	f	class:I2Cdev
+ICS_LPF	src/HAL_sensor_J.cpp	243;"	d	file:
+ICS_accX	inc/HAL_sensor_J.h	/^sensor_t ICS_accX;$/;"	m	struct:sensor_struct_t
+ICS_accY	inc/HAL_sensor_J.h	/^sensor_t ICS_accY;$/;"	m	struct:sensor_struct_t
+ICS_accZ	inc/HAL_sensor_J.h	/^sensor_t ICS_accZ;$/;"	m	struct:sensor_struct_t
+IIR_filter	src/lpf_J.c	/^int IIR_filter( float_j_t *output,float_j_t input,int sec,float_j_t Coefficient[][N_th_order],float_j_t Gain[],float_j_t state[][N_th_order\/2] ){$/;"	f
+IIR_filter	test/iir_test.c	/^int IIR_filter( float_j_t *output,float_j_t input,int sec,float_j_t Coefficient[][N_th_order],float_j_t Gain[],float_j_t state[][N_th_order\/2] ){$/;"	f
+INIT_DT	inc/define_J.h	13;"	d
+JS_GETBUFFER	inc/ultra_snd.h	63;"	d
+JS_GET_DATA	inc/ultra_snd.h	68;"	d
+JS_INIT	inc/ultra_snd.h	62;"	d
+JS_MUX_ADC_1_2	inc/ultra_snd.h	70;"	d
+JS_RELEASEBUFFER	inc/ultra_snd.h	64;"	d
+JS_START	inc/ultra_snd.h	65;"	d
+JS_START_8K	inc/ultra_snd.h	66;"	d
+JS_STOP	inc/ultra_snd.h	67;"	d
+KALMAN	inc/HAL_sensor_J.h	/^KALMAN,$/;"	e	enum:__anon6
+KALMAN1	src/HAL_sensor_J.cpp	40;"	d	file:
+KEY_MASK	controller/controller.cpp	/^typedef enum KEY_MASK{$/;"	g	file:
+KEY_MASK	controller/controller.cpp	/^}KEY_MASK;$/;"	t	typeref:enum:KEY_MASK	file:
+K_BACK	controller/controller.cpp	/^    K_BACK,$/;"	e	enum:KEY_MASK	file:
+K_DOWN	controller/controller.cpp	/^    K_DOWN = 1,$/;"	e	enum:KEY_MASK	file:
+K_EMERCY	controller/controller.cpp	/^    K_EMERCY,$/;"	e	enum:KEY_MASK	file:
+K_ESC	controller/controller.cpp	/^    K_ESC,$/;"	e	enum:KEY_MASK	file:
+K_FORWARD	controller/controller.cpp	/^    K_FORWARD,$/;"	e	enum:KEY_MASK	file:
+K_LEFT	controller/controller.cpp	/^    K_LEFT ,$/;"	e	enum:KEY_MASK	file:
+K_MODE	controller/controller.cpp	/^    K_MODE,$/;"	e	enum:KEY_MASK	file:
+K_RIGHT	controller/controller.cpp	/^    K_RIGHT,$/;"	e	enum:KEY_MASK	file:
+K_UP	controller/controller.cpp	/^    K_UP = 0,$/;"	e	enum:KEY_MASK	file:
+K_YAWL	controller/controller.cpp	/^    K_YAWL,$/;"	e	enum:KEY_MASK	file:
+K_YAWR	controller/controller.cpp	/^    K_YAWR,$/;"	e	enum:KEY_MASK	file:
+KalmanInit	src/KalmanJ.cpp	/^void KalmanInit(Kalman_t *kal) {$/;"	f
+Kalman_t	inc/KalmanJ.h	/^typedef struct Kalman_t{$/;"	s
+Kalman_t	inc/KalmanJ.h	/^}Kalman_t;$/;"	t	typeref:struct:Kalman_t
+KalmangetAngle	src/KalmanJ.cpp	/^float KalmangetAngle(Kalman_t *kal, float newAngle, float newRate, float dt) {$/;"	f
+KalmangetQangle	src/KalmanJ.cpp	/^float KalmangetQangle(Kalman_t *kal) { return kal->Q_angle; };$/;"	f
+KalmangetQbias	src/KalmanJ.cpp	/^float KalmangetQbias(Kalman_t *kal) { return kal->Q_bias; };$/;"	f
+KalmangetRate	src/KalmanJ.cpp	/^float KalmangetRate(Kalman_t *kal) { return kal->rate; }; \/\/ Return the unbiased rate$/;"	f
+KalmangetRmeasure	src/KalmanJ.cpp	/^float KalmangetRmeasure(Kalman_t *kal) { return kal->R_measure; };$/;"	f
+KalmansetAngle	src/KalmanJ.cpp	/^void KalmansetAngle(Kalman_t *kal, float angle) { kal->angle = angle; }; \/\/ Used to set angle, this should be set as the starting angle$/;"	f
+KalmansetQangle	src/KalmanJ.cpp	/^void KalmansetQangle(Kalman_t *kal,float Q_angle) { kal->Q_angle = Q_angle; };$/;"	f
+KalmansetQbias	src/KalmanJ.cpp	/^void KalmansetQbias(Kalman_t *kal,float Q_bias) { kal->Q_bias = Q_bias; };$/;"	f
+KalmansetRmeasure	src/KalmanJ.cpp	/^void KalmansetRmeasure(Kalman_t *kal,float R_measure) { kal->R_measure = R_measure; };$/;"	f
+Kd	inc/HAL_pid_J.h	/^	motor_t Kd;$/;"	m	struct:pid_control_t
+Ki	inc/HAL_pid_J.h	/^	motor_t Ki;$/;"	m	struct:pid_control_t
+Kp	inc/HAL_pid_J.h	/^	motor_t Kp;$/;"	m	struct:pid_control_t
+LED_GREEN_LEFT	inc/gpio_J.h	9;"	d
+LED_GREEN_RIGHT	inc/gpio_J.h	8;"	d
+LED_RED_LEFT	inc/gpio_J.h	7;"	d
+LED_RED_RIGHT	inc/gpio_J.h	6;"	d
+LFLAGS	Makefile	/^LFLAGS=-lm  -lpthread  -lrt$/;"	m
+MAXDMA	inc/ultra_snd.h	32;"	d
+MAX_SYSTEM	inc/HAL_pid_J.h	15;"	d
+MOVEAVE_SIZE	main.cpp	860;"	d	file:
+MPU6050	inc/MPU6050.h	/^class MPU6050 {$/;"	c
+MPU6050	src/MPU6050.cpp	/^MPU6050::MPU6050() {$/;"	f	class:MPU6050
+MPU6050	src/MPU6050.cpp	/^MPU6050::MPU6050(uint8_t address) {$/;"	f	class:MPU6050
+MPU6050_ACCEL_FIFO_EN_BIT	inc/MPU6050.h	224;"	d
+MPU6050_ACCEL_FS_16	inc/MPU6050.h	211;"	d
+MPU6050_ACCEL_FS_2	inc/MPU6050.h	208;"	d
+MPU6050_ACCEL_FS_4	inc/MPU6050.h	209;"	d
+MPU6050_ACCEL_FS_8	inc/MPU6050.h	210;"	d
+MPU6050_ACONFIG_ACCEL_HPF_BIT	inc/MPU6050.h	205;"	d
+MPU6050_ACONFIG_ACCEL_HPF_LENGTH	inc/MPU6050.h	206;"	d
+MPU6050_ACONFIG_AFS_SEL_BIT	inc/MPU6050.h	203;"	d
+MPU6050_ACONFIG_AFS_SEL_LENGTH	inc/MPU6050.h	204;"	d
+MPU6050_ACONFIG_XA_ST_BIT	inc/MPU6050.h	200;"	d
+MPU6050_ACONFIG_YA_ST_BIT	inc/MPU6050.h	201;"	d
+MPU6050_ACONFIG_ZA_ST_BIT	inc/MPU6050.h	202;"	d
+MPU6050_ADDRESS	src/mpu6050_J.cpp	22;"	d	file:
+MPU6050_ADDRESS_AD0_HIGH	inc/MPU6050.h	48;"	d
+MPU6050_ADDRESS_AD0_LOW	inc/MPU6050.h	47;"	d
+MPU6050_BANKSEL_CFG_USER_BANK_BIT	inc/MPU6050.h	390;"	d
+MPU6050_BANKSEL_MEM_SEL_BIT	inc/MPU6050.h	391;"	d
+MPU6050_BANKSEL_MEM_SEL_LENGTH	inc/MPU6050.h	392;"	d
+MPU6050_BANKSEL_PRFTCH_EN_BIT	inc/MPU6050.h	389;"	d
+MPU6050_CFG_DLPF_CFG_BIT	inc/MPU6050.h	172;"	d
+MPU6050_CFG_DLPF_CFG_LENGTH	inc/MPU6050.h	173;"	d
+MPU6050_CFG_EXT_SYNC_SET_BIT	inc/MPU6050.h	170;"	d
+MPU6050_CFG_EXT_SYNC_SET_LENGTH	inc/MPU6050.h	171;"	d
+MPU6050_CLOCK_DIV_258	inc/MPU6050.h	244;"	d
+MPU6050_CLOCK_DIV_267	inc/MPU6050.h	243;"	d
+MPU6050_CLOCK_DIV_276	inc/MPU6050.h	242;"	d
+MPU6050_CLOCK_DIV_286	inc/MPU6050.h	241;"	d
+MPU6050_CLOCK_DIV_296	inc/MPU6050.h	240;"	d
+MPU6050_CLOCK_DIV_308	inc/MPU6050.h	239;"	d
+MPU6050_CLOCK_DIV_320	inc/MPU6050.h	238;"	d
+MPU6050_CLOCK_DIV_333	inc/MPU6050.h	237;"	d
+MPU6050_CLOCK_DIV_348	inc/MPU6050.h	236;"	d
+MPU6050_CLOCK_DIV_364	inc/MPU6050.h	251;"	d
+MPU6050_CLOCK_DIV_381	inc/MPU6050.h	250;"	d
+MPU6050_CLOCK_DIV_400	inc/MPU6050.h	249;"	d
+MPU6050_CLOCK_DIV_421	inc/MPU6050.h	248;"	d
+MPU6050_CLOCK_DIV_444	inc/MPU6050.h	247;"	d
+MPU6050_CLOCK_DIV_471	inc/MPU6050.h	246;"	d
+MPU6050_CLOCK_DIV_500	inc/MPU6050.h	245;"	d
+MPU6050_CLOCK_INTERNAL	inc/MPU6050.h	367;"	d
+MPU6050_CLOCK_KEEP_RESET	inc/MPU6050.h	373;"	d
+MPU6050_CLOCK_PLL_EXT19M	inc/MPU6050.h	372;"	d
+MPU6050_CLOCK_PLL_EXT32K	inc/MPU6050.h	371;"	d
+MPU6050_CLOCK_PLL_XGYRO	inc/MPU6050.h	368;"	d
+MPU6050_CLOCK_PLL_YGYRO	inc/MPU6050.h	369;"	d
+MPU6050_CLOCK_PLL_ZGYRO	inc/MPU6050.h	370;"	d
+MPU6050_DEFAULT_ADDRESS	inc/MPU6050.h	49;"	d
+MPU6050_DELAYCTRL_DELAY_ES_SHADOW_BIT	inc/MPU6050.h	328;"	d
+MPU6050_DELAYCTRL_I2C_SLV0_DLY_EN_BIT	inc/MPU6050.h	333;"	d
+MPU6050_DELAYCTRL_I2C_SLV1_DLY_EN_BIT	inc/MPU6050.h	332;"	d
+MPU6050_DELAYCTRL_I2C_SLV2_DLY_EN_BIT	inc/MPU6050.h	331;"	d
+MPU6050_DELAYCTRL_I2C_SLV3_DLY_EN_BIT	inc/MPU6050.h	330;"	d
+MPU6050_DELAYCTRL_I2C_SLV4_DLY_EN_BIT	inc/MPU6050.h	329;"	d
+MPU6050_DETECT_ACCEL_ON_DELAY_BIT	inc/MPU6050.h	339;"	d
+MPU6050_DETECT_ACCEL_ON_DELAY_LENGTH	inc/MPU6050.h	340;"	d
+MPU6050_DETECT_DECREMENT_1	inc/MPU6050.h	347;"	d
+MPU6050_DETECT_DECREMENT_2	inc/MPU6050.h	348;"	d
+MPU6050_DETECT_DECREMENT_4	inc/MPU6050.h	349;"	d
+MPU6050_DETECT_DECREMENT_RESET	inc/MPU6050.h	346;"	d
+MPU6050_DETECT_FF_COUNT_BIT	inc/MPU6050.h	341;"	d
+MPU6050_DETECT_FF_COUNT_LENGTH	inc/MPU6050.h	342;"	d
+MPU6050_DETECT_MOT_COUNT_BIT	inc/MPU6050.h	343;"	d
+MPU6050_DETECT_MOT_COUNT_LENGTH	inc/MPU6050.h	344;"	d
+MPU6050_DEV	inc/mpu6050_J.h	5;"	d
+MPU6050_DHPF_0P63	inc/MPU6050.h	217;"	d
+MPU6050_DHPF_1P25	inc/MPU6050.h	216;"	d
+MPU6050_DHPF_2P5	inc/MPU6050.h	215;"	d
+MPU6050_DHPF_5	inc/MPU6050.h	214;"	d
+MPU6050_DHPF_HOLD	inc/MPU6050.h	218;"	d
+MPU6050_DHPF_RESET	inc/MPU6050.h	213;"	d
+MPU6050_DLPF_BW_10	inc/MPU6050.h	189;"	d
+MPU6050_DLPF_BW_188	inc/MPU6050.h	185;"	d
+MPU6050_DLPF_BW_20	inc/MPU6050.h	188;"	d
+MPU6050_DLPF_BW_256	inc/MPU6050.h	184;"	d
+MPU6050_DLPF_BW_42	inc/MPU6050.h	187;"	d
+MPU6050_DLPF_BW_5	inc/MPU6050.h	190;"	d
+MPU6050_DLPF_BW_98	inc/MPU6050.h	186;"	d
+MPU6050_DMPINT_0_BIT	inc/MPU6050.h	318;"	d
+MPU6050_DMPINT_1_BIT	inc/MPU6050.h	317;"	d
+MPU6050_DMPINT_2_BIT	inc/MPU6050.h	316;"	d
+MPU6050_DMPINT_3_BIT	inc/MPU6050.h	315;"	d
+MPU6050_DMPINT_4_BIT	inc/MPU6050.h	314;"	d
+MPU6050_DMPINT_5_BIT	inc/MPU6050.h	313;"	d
+MPU6050_DMP_CODE_SIZE	inc/MPU6050_6Axis_MotionApps20.h	77;"	d
+MPU6050_DMP_CONFIG_SIZE	inc/MPU6050_6Axis_MotionApps20.h	78;"	d
+MPU6050_DMP_MEMORY_BANKS	inc/MPU6050.h	397;"	d
+MPU6050_DMP_MEMORY_BANK_SIZE	inc/MPU6050.h	398;"	d
+MPU6050_DMP_MEMORY_CHUNK_SIZE	inc/MPU6050.h	399;"	d
+MPU6050_DMP_UPDATES_SIZE	inc/MPU6050_6Axis_MotionApps20.h	79;"	d
+MPU6050_EXT_SYNC_ACCEL_XOUT_L	inc/MPU6050.h	180;"	d
+MPU6050_EXT_SYNC_ACCEL_YOUT_L	inc/MPU6050.h	181;"	d
+MPU6050_EXT_SYNC_ACCEL_ZOUT_L	inc/MPU6050.h	182;"	d
+MPU6050_EXT_SYNC_DISABLED	inc/MPU6050.h	175;"	d
+MPU6050_EXT_SYNC_GYRO_XOUT_L	inc/MPU6050.h	177;"	d
+MPU6050_EXT_SYNC_GYRO_YOUT_L	inc/MPU6050.h	178;"	d
+MPU6050_EXT_SYNC_GYRO_ZOUT_L	inc/MPU6050.h	179;"	d
+MPU6050_EXT_SYNC_TEMP_OUT_L	inc/MPU6050.h	176;"	d
+MPU6050_GCONFIG_FS_SEL_BIT	inc/MPU6050.h	192;"	d
+MPU6050_GCONFIG_FS_SEL_LENGTH	inc/MPU6050.h	193;"	d
+MPU6050_GYRO_FS_1000	inc/MPU6050.h	197;"	d
+MPU6050_GYRO_FS_2000	inc/MPU6050.h	198;"	d
+MPU6050_GYRO_FS_250	inc/MPU6050.h	195;"	d
+MPU6050_GYRO_FS_500	inc/MPU6050.h	196;"	d
+MPU6050_I2C_MST_CLK_BIT	inc/MPU6050.h	233;"	d
+MPU6050_I2C_MST_CLK_LENGTH	inc/MPU6050.h	234;"	d
+MPU6050_I2C_MST_P_NSR_BIT	inc/MPU6050.h	232;"	d
+MPU6050_I2C_SLV4_ADDR_BIT	inc/MPU6050.h	264;"	d
+MPU6050_I2C_SLV4_ADDR_LENGTH	inc/MPU6050.h	265;"	d
+MPU6050_I2C_SLV4_EN_BIT	inc/MPU6050.h	266;"	d
+MPU6050_I2C_SLV4_INT_EN_BIT	inc/MPU6050.h	267;"	d
+MPU6050_I2C_SLV4_MST_DLY_BIT	inc/MPU6050.h	269;"	d
+MPU6050_I2C_SLV4_MST_DLY_LENGTH	inc/MPU6050.h	270;"	d
+MPU6050_I2C_SLV4_REG_DIS_BIT	inc/MPU6050.h	268;"	d
+MPU6050_I2C_SLV4_RW_BIT	inc/MPU6050.h	263;"	d
+MPU6050_I2C_SLV_ADDR_BIT	inc/MPU6050.h	254;"	d
+MPU6050_I2C_SLV_ADDR_LENGTH	inc/MPU6050.h	255;"	d
+MPU6050_I2C_SLV_BYTE_SW_BIT	inc/MPU6050.h	257;"	d
+MPU6050_I2C_SLV_EN_BIT	inc/MPU6050.h	256;"	d
+MPU6050_I2C_SLV_GRP_BIT	inc/MPU6050.h	259;"	d
+MPU6050_I2C_SLV_LEN_BIT	inc/MPU6050.h	260;"	d
+MPU6050_I2C_SLV_LEN_LENGTH	inc/MPU6050.h	261;"	d
+MPU6050_I2C_SLV_REG_DIS_BIT	inc/MPU6050.h	258;"	d
+MPU6050_I2C_SLV_RW_BIT	inc/MPU6050.h	253;"	d
+MPU6050_INCLUDE_DMP_MOTIONAPPS20	inc/MPU6050_6Axis_MotionApps20.h	45;"	d
+MPU6050_INTCFG_CLKOUT_EN_BIT	inc/MPU6050.h	288;"	d
+MPU6050_INTCFG_FSYNC_INT_EN_BIT	inc/MPU6050.h	286;"	d
+MPU6050_INTCFG_FSYNC_INT_LEVEL_BIT	inc/MPU6050.h	285;"	d
+MPU6050_INTCFG_I2C_BYPASS_EN_BIT	inc/MPU6050.h	287;"	d
+MPU6050_INTCFG_INT_LEVEL_BIT	inc/MPU6050.h	281;"	d
+MPU6050_INTCFG_INT_OPEN_BIT	inc/MPU6050.h	282;"	d
+MPU6050_INTCFG_INT_RD_CLEAR_BIT	inc/MPU6050.h	284;"	d
+MPU6050_INTCFG_LATCH_INT_EN_BIT	inc/MPU6050.h	283;"	d
+MPU6050_INTCLEAR_ANYREAD	inc/MPU6050.h	300;"	d
+MPU6050_INTCLEAR_STATUSREAD	inc/MPU6050.h	299;"	d
+MPU6050_INTDRV_OPENDRAIN	inc/MPU6050.h	294;"	d
+MPU6050_INTDRV_PUSHPULL	inc/MPU6050.h	293;"	d
+MPU6050_INTERRUPT_DATA_RDY_BIT	inc/MPU6050.h	309;"	d
+MPU6050_INTERRUPT_DMP_INT_BIT	inc/MPU6050.h	308;"	d
+MPU6050_INTERRUPT_FF_BIT	inc/MPU6050.h	302;"	d
+MPU6050_INTERRUPT_FIFO_OFLOW_BIT	inc/MPU6050.h	305;"	d
+MPU6050_INTERRUPT_I2C_MST_INT_BIT	inc/MPU6050.h	306;"	d
+MPU6050_INTERRUPT_MOT_BIT	inc/MPU6050.h	303;"	d
+MPU6050_INTERRUPT_PLL_RDY_INT_BIT	inc/MPU6050.h	307;"	d
+MPU6050_INTERRUPT_ZMOT_BIT	inc/MPU6050.h	304;"	d
+MPU6050_INTLATCH_50USPULSE	inc/MPU6050.h	296;"	d
+MPU6050_INTLATCH_WAITCLEAR	inc/MPU6050.h	297;"	d
+MPU6050_INTMODE_ACTIVEHIGH	inc/MPU6050.h	290;"	d
+MPU6050_INTMODE_ACTIVELOW	inc/MPU6050.h	291;"	d
+MPU6050_MOTION_MOT_XNEG_BIT	inc/MPU6050.h	320;"	d
+MPU6050_MOTION_MOT_XPOS_BIT	inc/MPU6050.h	321;"	d
+MPU6050_MOTION_MOT_YNEG_BIT	inc/MPU6050.h	322;"	d
+MPU6050_MOTION_MOT_YPOS_BIT	inc/MPU6050.h	323;"	d
+MPU6050_MOTION_MOT_ZNEG_BIT	inc/MPU6050.h	324;"	d
+MPU6050_MOTION_MOT_ZPOS_BIT	inc/MPU6050.h	325;"	d
+MPU6050_MOTION_MOT_ZRMOT_BIT	inc/MPU6050.h	326;"	d
+MPU6050_MST_I2C_LOST_ARB_BIT	inc/MPU6050.h	274;"	d
+MPU6050_MST_I2C_SLV0_NACK_BIT	inc/MPU6050.h	279;"	d
+MPU6050_MST_I2C_SLV1_NACK_BIT	inc/MPU6050.h	278;"	d
+MPU6050_MST_I2C_SLV2_NACK_BIT	inc/MPU6050.h	277;"	d
+MPU6050_MST_I2C_SLV3_NACK_BIT	inc/MPU6050.h	276;"	d
+MPU6050_MST_I2C_SLV4_DONE_BIT	inc/MPU6050.h	273;"	d
+MPU6050_MST_I2C_SLV4_NACK_BIT	inc/MPU6050.h	275;"	d
+MPU6050_MST_PASS_THROUGH_BIT	inc/MPU6050.h	272;"	d
+MPU6050_MULT_MST_EN_BIT	inc/MPU6050.h	229;"	d
+MPU6050_OFFSET	inc/mpu6050_J.h	6;"	d
+MPU6050_PATHRESET_ACCEL_RESET_BIT	inc/MPU6050.h	336;"	d
+MPU6050_PATHRESET_GYRO_RESET_BIT	inc/MPU6050.h	335;"	d
+MPU6050_PATHRESET_TEMP_RESET_BIT	inc/MPU6050.h	337;"	d
+MPU6050_PWR1_CLKSEL_BIT	inc/MPU6050.h	364;"	d
+MPU6050_PWR1_CLKSEL_LENGTH	inc/MPU6050.h	365;"	d
+MPU6050_PWR1_CYCLE_BIT	inc/MPU6050.h	362;"	d
+MPU6050_PWR1_DEVICE_RESET_BIT	inc/MPU6050.h	360;"	d
+MPU6050_PWR1_SLEEP_BIT	inc/MPU6050.h	361;"	d
+MPU6050_PWR1_TEMP_DIS_BIT	inc/MPU6050.h	363;"	d
+MPU6050_PWR2_LP_WAKE_CTRL_BIT	inc/MPU6050.h	375;"	d
+MPU6050_PWR2_LP_WAKE_CTRL_LENGTH	inc/MPU6050.h	376;"	d
+MPU6050_PWR2_STBY_XA_BIT	inc/MPU6050.h	377;"	d
+MPU6050_PWR2_STBY_XG_BIT	inc/MPU6050.h	380;"	d
+MPU6050_PWR2_STBY_YA_BIT	inc/MPU6050.h	378;"	d
+MPU6050_PWR2_STBY_YG_BIT	inc/MPU6050.h	381;"	d
+MPU6050_PWR2_STBY_ZA_BIT	inc/MPU6050.h	379;"	d
+MPU6050_PWR2_STBY_ZG_BIT	inc/MPU6050.h	382;"	d
+MPU6050_RA_ACCEL_CONFIG	inc/MPU6050.h	72;"	d
+MPU6050_RA_ACCEL_CONFIG	src/mpu6050_J.cpp	44;"	d	file:
+MPU6050_RA_ACCEL_XOUT_H	inc/MPU6050.h	103;"	d
+MPU6050_RA_ACCEL_XOUT_H	src/mpu6050_J.cpp	75;"	d	file:
+MPU6050_RA_ACCEL_XOUT_L	inc/MPU6050.h	104;"	d
+MPU6050_RA_ACCEL_XOUT_L	src/mpu6050_J.cpp	76;"	d	file:
+MPU6050_RA_ACCEL_YOUT_H	inc/MPU6050.h	105;"	d
+MPU6050_RA_ACCEL_YOUT_H	src/mpu6050_J.cpp	77;"	d	file:
+MPU6050_RA_ACCEL_YOUT_L	inc/MPU6050.h	106;"	d
+MPU6050_RA_ACCEL_YOUT_L	src/mpu6050_J.cpp	78;"	d	file:
+MPU6050_RA_ACCEL_ZOUT_H	inc/MPU6050.h	107;"	d
+MPU6050_RA_ACCEL_ZOUT_H	src/mpu6050_J.cpp	79;"	d	file:
+MPU6050_RA_ACCEL_ZOUT_L	inc/MPU6050.h	108;"	d
+MPU6050_RA_ACCEL_ZOUT_L	src/mpu6050_J.cpp	80;"	d	file:
+MPU6050_RA_BANK_SEL	inc/MPU6050.h	152;"	d
+MPU6050_RA_BANK_SEL	src/mpu6050_J.cpp	124;"	d	file:
+MPU6050_RA_CONFIG	inc/MPU6050.h	70;"	d
+MPU6050_RA_CONFIG	src/mpu6050_J.cpp	42;"	d	file:
+MPU6050_RA_DMP_CFG_1	inc/MPU6050.h	155;"	d
+MPU6050_RA_DMP_CFG_1	src/mpu6050_J.cpp	127;"	d	file:
+MPU6050_RA_DMP_CFG_2	inc/MPU6050.h	156;"	d
+MPU6050_RA_DMP_CFG_2	src/mpu6050_J.cpp	128;"	d	file:
+MPU6050_RA_DMP_INT_STATUS	inc/MPU6050.h	101;"	d
+MPU6050_RA_DMP_INT_STATUS	src/mpu6050_J.cpp	73;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_00	inc/MPU6050.h	117;"	d
+MPU6050_RA_EXT_SENS_DATA_00	src/mpu6050_J.cpp	89;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_01	inc/MPU6050.h	118;"	d
+MPU6050_RA_EXT_SENS_DATA_01	src/mpu6050_J.cpp	90;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_02	inc/MPU6050.h	119;"	d
+MPU6050_RA_EXT_SENS_DATA_02	src/mpu6050_J.cpp	91;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_03	inc/MPU6050.h	120;"	d
+MPU6050_RA_EXT_SENS_DATA_03	src/mpu6050_J.cpp	92;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_04	inc/MPU6050.h	121;"	d
+MPU6050_RA_EXT_SENS_DATA_04	src/mpu6050_J.cpp	93;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_05	inc/MPU6050.h	122;"	d
+MPU6050_RA_EXT_SENS_DATA_05	src/mpu6050_J.cpp	94;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_06	inc/MPU6050.h	123;"	d
+MPU6050_RA_EXT_SENS_DATA_06	src/mpu6050_J.cpp	95;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_07	inc/MPU6050.h	124;"	d
+MPU6050_RA_EXT_SENS_DATA_07	src/mpu6050_J.cpp	96;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_08	inc/MPU6050.h	125;"	d
+MPU6050_RA_EXT_SENS_DATA_08	src/mpu6050_J.cpp	97;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_09	inc/MPU6050.h	126;"	d
+MPU6050_RA_EXT_SENS_DATA_09	src/mpu6050_J.cpp	98;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_10	inc/MPU6050.h	127;"	d
+MPU6050_RA_EXT_SENS_DATA_10	src/mpu6050_J.cpp	99;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_11	inc/MPU6050.h	128;"	d
+MPU6050_RA_EXT_SENS_DATA_11	src/mpu6050_J.cpp	100;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_12	inc/MPU6050.h	129;"	d
+MPU6050_RA_EXT_SENS_DATA_12	src/mpu6050_J.cpp	101;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_13	inc/MPU6050.h	130;"	d
+MPU6050_RA_EXT_SENS_DATA_13	src/mpu6050_J.cpp	102;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_14	inc/MPU6050.h	131;"	d
+MPU6050_RA_EXT_SENS_DATA_14	src/mpu6050_J.cpp	103;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_15	inc/MPU6050.h	132;"	d
+MPU6050_RA_EXT_SENS_DATA_15	src/mpu6050_J.cpp	104;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_16	inc/MPU6050.h	133;"	d
+MPU6050_RA_EXT_SENS_DATA_16	src/mpu6050_J.cpp	105;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_17	inc/MPU6050.h	134;"	d
+MPU6050_RA_EXT_SENS_DATA_17	src/mpu6050_J.cpp	106;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_18	inc/MPU6050.h	135;"	d
+MPU6050_RA_EXT_SENS_DATA_18	src/mpu6050_J.cpp	107;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_19	inc/MPU6050.h	136;"	d
+MPU6050_RA_EXT_SENS_DATA_19	src/mpu6050_J.cpp	108;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_20	inc/MPU6050.h	137;"	d
+MPU6050_RA_EXT_SENS_DATA_20	src/mpu6050_J.cpp	109;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_21	inc/MPU6050.h	138;"	d
+MPU6050_RA_EXT_SENS_DATA_21	src/mpu6050_J.cpp	110;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_22	inc/MPU6050.h	139;"	d
+MPU6050_RA_EXT_SENS_DATA_22	src/mpu6050_J.cpp	111;"	d	file:
+MPU6050_RA_EXT_SENS_DATA_23	inc/MPU6050.h	140;"	d
+MPU6050_RA_EXT_SENS_DATA_23	src/mpu6050_J.cpp	112;"	d	file:
+MPU6050_RA_FF_DUR	inc/MPU6050.h	74;"	d
+MPU6050_RA_FF_DUR	src/mpu6050_J.cpp	46;"	d	file:
+MPU6050_RA_FF_THR	inc/MPU6050.h	73;"	d
+MPU6050_RA_FF_THR	src/mpu6050_J.cpp	45;"	d	file:
+MPU6050_RA_FIFO_COUNTH	inc/MPU6050.h	157;"	d
+MPU6050_RA_FIFO_COUNTH	src/mpu6050_J.cpp	129;"	d	file:
+MPU6050_RA_FIFO_COUNTL	inc/MPU6050.h	158;"	d
+MPU6050_RA_FIFO_COUNTL	src/mpu6050_J.cpp	130;"	d	file:
+MPU6050_RA_FIFO_EN	inc/MPU6050.h	79;"	d
+MPU6050_RA_FIFO_EN	src/mpu6050_J.cpp	51;"	d	file:
+MPU6050_RA_FIFO_R_W	inc/MPU6050.h	159;"	d
+MPU6050_RA_FIFO_R_W	src/mpu6050_J.cpp	131;"	d	file:
+MPU6050_RA_GYRO_CONFIG	inc/MPU6050.h	71;"	d
+MPU6050_RA_GYRO_CONFIG	src/mpu6050_J.cpp	43;"	d	file:
+MPU6050_RA_GYRO_XOUT_H	inc/MPU6050.h	111;"	d
+MPU6050_RA_GYRO_XOUT_H	src/mpu6050_J.cpp	83;"	d	file:
+MPU6050_RA_GYRO_XOUT_L	inc/MPU6050.h	112;"	d
+MPU6050_RA_GYRO_XOUT_L	src/mpu6050_J.cpp	84;"	d	file:
+MPU6050_RA_GYRO_YOUT_H	inc/MPU6050.h	113;"	d
+MPU6050_RA_GYRO_YOUT_H	src/mpu6050_J.cpp	85;"	d	file:
+MPU6050_RA_GYRO_YOUT_L	inc/MPU6050.h	114;"	d
+MPU6050_RA_GYRO_YOUT_L	src/mpu6050_J.cpp	86;"	d	file:
+MPU6050_RA_GYRO_ZOUT_H	inc/MPU6050.h	115;"	d
+MPU6050_RA_GYRO_ZOUT_H	src/mpu6050_J.cpp	87;"	d	file:
+MPU6050_RA_GYRO_ZOUT_L	inc/MPU6050.h	116;"	d
+MPU6050_RA_GYRO_ZOUT_L	src/mpu6050_J.cpp	88;"	d	file:
+MPU6050_RA_I2C_MST_CTRL	inc/MPU6050.h	80;"	d
+MPU6050_RA_I2C_MST_CTRL	src/mpu6050_J.cpp	52;"	d	file:
+MPU6050_RA_I2C_MST_DELAY_CTRL	inc/MPU6050.h	146;"	d
+MPU6050_RA_I2C_MST_DELAY_CTRL	src/mpu6050_J.cpp	118;"	d	file:
+MPU6050_RA_I2C_MST_STATUS	inc/MPU6050.h	98;"	d
+MPU6050_RA_I2C_MST_STATUS	src/mpu6050_J.cpp	70;"	d	file:
+MPU6050_RA_I2C_SLV0_ADDR	inc/MPU6050.h	81;"	d
+MPU6050_RA_I2C_SLV0_ADDR	src/mpu6050_J.cpp	53;"	d	file:
+MPU6050_RA_I2C_SLV0_CTRL	inc/MPU6050.h	83;"	d
+MPU6050_RA_I2C_SLV0_CTRL	src/mpu6050_J.cpp	55;"	d	file:
+MPU6050_RA_I2C_SLV0_DO	inc/MPU6050.h	142;"	d
+MPU6050_RA_I2C_SLV0_DO	src/mpu6050_J.cpp	114;"	d	file:
+MPU6050_RA_I2C_SLV0_REG	inc/MPU6050.h	82;"	d
+MPU6050_RA_I2C_SLV0_REG	src/mpu6050_J.cpp	54;"	d	file:
+MPU6050_RA_I2C_SLV1_ADDR	inc/MPU6050.h	84;"	d
+MPU6050_RA_I2C_SLV1_ADDR	src/mpu6050_J.cpp	56;"	d	file:
+MPU6050_RA_I2C_SLV1_CTRL	inc/MPU6050.h	86;"	d
+MPU6050_RA_I2C_SLV1_CTRL	src/mpu6050_J.cpp	58;"	d	file:
+MPU6050_RA_I2C_SLV1_DO	inc/MPU6050.h	143;"	d
+MPU6050_RA_I2C_SLV1_DO	src/mpu6050_J.cpp	115;"	d	file:
+MPU6050_RA_I2C_SLV1_REG	inc/MPU6050.h	85;"	d
+MPU6050_RA_I2C_SLV1_REG	src/mpu6050_J.cpp	57;"	d	file:
+MPU6050_RA_I2C_SLV2_ADDR	inc/MPU6050.h	87;"	d
+MPU6050_RA_I2C_SLV2_ADDR	src/mpu6050_J.cpp	59;"	d	file:
+MPU6050_RA_I2C_SLV2_CTRL	inc/MPU6050.h	89;"	d
+MPU6050_RA_I2C_SLV2_CTRL	src/mpu6050_J.cpp	61;"	d	file:
+MPU6050_RA_I2C_SLV2_DO	inc/MPU6050.h	144;"	d
+MPU6050_RA_I2C_SLV2_DO	src/mpu6050_J.cpp	116;"	d	file:
+MPU6050_RA_I2C_SLV2_REG	inc/MPU6050.h	88;"	d
+MPU6050_RA_I2C_SLV2_REG	src/mpu6050_J.cpp	60;"	d	file:
+MPU6050_RA_I2C_SLV3_ADDR	inc/MPU6050.h	90;"	d
+MPU6050_RA_I2C_SLV3_ADDR	src/mpu6050_J.cpp	62;"	d	file:
+MPU6050_RA_I2C_SLV3_CTRL	inc/MPU6050.h	92;"	d
+MPU6050_RA_I2C_SLV3_CTRL	src/mpu6050_J.cpp	64;"	d	file:
+MPU6050_RA_I2C_SLV3_DO	inc/MPU6050.h	145;"	d
+MPU6050_RA_I2C_SLV3_DO	src/mpu6050_J.cpp	117;"	d	file:
+MPU6050_RA_I2C_SLV3_REG	inc/MPU6050.h	91;"	d
+MPU6050_RA_I2C_SLV3_REG	src/mpu6050_J.cpp	63;"	d	file:
+MPU6050_RA_I2C_SLV4_ADDR	inc/MPU6050.h	93;"	d
+MPU6050_RA_I2C_SLV4_ADDR	src/mpu6050_J.cpp	65;"	d	file:
+MPU6050_RA_I2C_SLV4_CTRL	inc/MPU6050.h	96;"	d
+MPU6050_RA_I2C_SLV4_CTRL	src/mpu6050_J.cpp	68;"	d	file:
+MPU6050_RA_I2C_SLV4_DI	inc/MPU6050.h	97;"	d
+MPU6050_RA_I2C_SLV4_DI	src/mpu6050_J.cpp	69;"	d	file:
+MPU6050_RA_I2C_SLV4_DO	inc/MPU6050.h	95;"	d
+MPU6050_RA_I2C_SLV4_DO	src/mpu6050_J.cpp	67;"	d	file:
+MPU6050_RA_I2C_SLV4_REG	inc/MPU6050.h	94;"	d
+MPU6050_RA_I2C_SLV4_REG	src/mpu6050_J.cpp	66;"	d	file:
+MPU6050_RA_INT_ENABLE	inc/MPU6050.h	100;"	d
+MPU6050_RA_INT_ENABLE	src/mpu6050_J.cpp	72;"	d	file:
+MPU6050_RA_INT_PIN_CFG	inc/MPU6050.h	99;"	d
+MPU6050_RA_INT_PIN_CFG	src/mpu6050_J.cpp	71;"	d	file:
+MPU6050_RA_INT_STATUS	inc/MPU6050.h	102;"	d
+MPU6050_RA_INT_STATUS	src/mpu6050_J.cpp	74;"	d	file:
+MPU6050_RA_MEM_R_W	inc/MPU6050.h	154;"	d
+MPU6050_RA_MEM_R_W	src/mpu6050_J.cpp	126;"	d	file:
+MPU6050_RA_MEM_START_ADDR	inc/MPU6050.h	153;"	d
+MPU6050_RA_MEM_START_ADDR	src/mpu6050_J.cpp	125;"	d	file:
+MPU6050_RA_MOT_DETECT_CTRL	inc/MPU6050.h	148;"	d
+MPU6050_RA_MOT_DETECT_CTRL	src/mpu6050_J.cpp	120;"	d	file:
+MPU6050_RA_MOT_DETECT_STATUS	inc/MPU6050.h	141;"	d
+MPU6050_RA_MOT_DETECT_STATUS	src/mpu6050_J.cpp	113;"	d	file:
+MPU6050_RA_MOT_DUR	inc/MPU6050.h	76;"	d
+MPU6050_RA_MOT_DUR	src/mpu6050_J.cpp	48;"	d	file:
+MPU6050_RA_MOT_THR	inc/MPU6050.h	75;"	d
+MPU6050_RA_MOT_THR	src/mpu6050_J.cpp	47;"	d	file:
+MPU6050_RA_PWR_MGMT_1	inc/MPU6050.h	150;"	d
+MPU6050_RA_PWR_MGMT_1	src/mpu6050_J.cpp	122;"	d	file:
+MPU6050_RA_PWR_MGMT_2	inc/MPU6050.h	151;"	d
+MPU6050_RA_PWR_MGMT_2	src/mpu6050_J.cpp	123;"	d	file:
+MPU6050_RA_SIGNAL_PATH_RESET	inc/MPU6050.h	147;"	d
+MPU6050_RA_SIGNAL_PATH_RESET	src/mpu6050_J.cpp	119;"	d	file:
+MPU6050_RA_SMPLRT_DIV	inc/MPU6050.h	69;"	d
+MPU6050_RA_SMPLRT_DIV	src/mpu6050_J.cpp	41;"	d	file:
+MPU6050_RA_TEMP_OUT_H	inc/MPU6050.h	109;"	d
+MPU6050_RA_TEMP_OUT_H	src/mpu6050_J.cpp	81;"	d	file:
+MPU6050_RA_TEMP_OUT_L	inc/MPU6050.h	110;"	d
+MPU6050_RA_TEMP_OUT_L	src/mpu6050_J.cpp	82;"	d	file:
+MPU6050_RA_USER_CTRL	inc/MPU6050.h	149;"	d
+MPU6050_RA_USER_CTRL	src/mpu6050_J.cpp	121;"	d	file:
+MPU6050_RA_WHO_AM_I	inc/MPU6050.h	160;"	d
+MPU6050_RA_WHO_AM_I	src/mpu6050_J.cpp	132;"	d	file:
+MPU6050_RA_XA_OFFS_H	inc/MPU6050.h	57;"	d
+MPU6050_RA_XA_OFFS_H	src/mpu6050_J.cpp	29;"	d	file:
+MPU6050_RA_XA_OFFS_L_TC	inc/MPU6050.h	58;"	d
+MPU6050_RA_XA_OFFS_L_TC	src/mpu6050_J.cpp	30;"	d	file:
+MPU6050_RA_XG_OFFS_TC	inc/MPU6050.h	51;"	d
+MPU6050_RA_XG_OFFS_TC	src/mpu6050_J.cpp	23;"	d	file:
+MPU6050_RA_XG_OFFS_USRH	inc/MPU6050.h	63;"	d
+MPU6050_RA_XG_OFFS_USRH	src/mpu6050_J.cpp	35;"	d	file:
+MPU6050_RA_XG_OFFS_USRL	inc/MPU6050.h	64;"	d
+MPU6050_RA_XG_OFFS_USRL	src/mpu6050_J.cpp	36;"	d	file:
+MPU6050_RA_X_FINE_GAIN	inc/MPU6050.h	54;"	d
+MPU6050_RA_X_FINE_GAIN	src/mpu6050_J.cpp	26;"	d	file:
+MPU6050_RA_YA_OFFS_H	inc/MPU6050.h	59;"	d
+MPU6050_RA_YA_OFFS_H	src/mpu6050_J.cpp	31;"	d	file:
+MPU6050_RA_YA_OFFS_L_TC	inc/MPU6050.h	60;"	d
+MPU6050_RA_YA_OFFS_L_TC	src/mpu6050_J.cpp	32;"	d	file:
+MPU6050_RA_YG_OFFS_TC	inc/MPU6050.h	52;"	d
+MPU6050_RA_YG_OFFS_TC	src/mpu6050_J.cpp	24;"	d	file:
+MPU6050_RA_YG_OFFS_USRH	inc/MPU6050.h	65;"	d
+MPU6050_RA_YG_OFFS_USRH	src/mpu6050_J.cpp	37;"	d	file:
+MPU6050_RA_YG_OFFS_USRL	inc/MPU6050.h	66;"	d
+MPU6050_RA_YG_OFFS_USRL	src/mpu6050_J.cpp	38;"	d	file:
+MPU6050_RA_Y_FINE_GAIN	inc/MPU6050.h	55;"	d
+MPU6050_RA_Y_FINE_GAIN	src/mpu6050_J.cpp	27;"	d	file:
+MPU6050_RA_ZA_OFFS_H	inc/MPU6050.h	61;"	d
+MPU6050_RA_ZA_OFFS_H	src/mpu6050_J.cpp	33;"	d	file:
+MPU6050_RA_ZA_OFFS_L_TC	inc/MPU6050.h	62;"	d
+MPU6050_RA_ZA_OFFS_L_TC	src/mpu6050_J.cpp	34;"	d	file:
+MPU6050_RA_ZG_OFFS_TC	inc/MPU6050.h	53;"	d
+MPU6050_RA_ZG_OFFS_TC	src/mpu6050_J.cpp	25;"	d	file:
+MPU6050_RA_ZG_OFFS_USRH	inc/MPU6050.h	67;"	d
+MPU6050_RA_ZG_OFFS_USRH	src/mpu6050_J.cpp	39;"	d	file:
+MPU6050_RA_ZG_OFFS_USRL	inc/MPU6050.h	68;"	d
+MPU6050_RA_ZG_OFFS_USRL	src/mpu6050_J.cpp	40;"	d	file:
+MPU6050_RA_ZRMOT_DUR	inc/MPU6050.h	78;"	d
+MPU6050_RA_ZRMOT_DUR	src/mpu6050_J.cpp	50;"	d	file:
+MPU6050_RA_ZRMOT_THR	inc/MPU6050.h	77;"	d
+MPU6050_RA_ZRMOT_THR	src/mpu6050_J.cpp	49;"	d	file:
+MPU6050_RA_Z_FINE_GAIN	inc/MPU6050.h	56;"	d
+MPU6050_RA_Z_FINE_GAIN	src/mpu6050_J.cpp	28;"	d	file:
+MPU6050_SLV0_FIFO_EN_BIT	inc/MPU6050.h	227;"	d
+MPU6050_SLV1_FIFO_EN_BIT	inc/MPU6050.h	226;"	d
+MPU6050_SLV2_FIFO_EN_BIT	inc/MPU6050.h	225;"	d
+MPU6050_SLV_3_FIFO_EN_BIT	inc/MPU6050.h	231;"	d
+MPU6050_TC_OFFSET_BIT	inc/MPU6050.h	163;"	d
+MPU6050_TC_OFFSET_LENGTH	inc/MPU6050.h	164;"	d
+MPU6050_TC_OTP_BNK_VLD_BIT	inc/MPU6050.h	165;"	d
+MPU6050_TC_PWR_MODE_BIT	inc/MPU6050.h	162;"	d
+MPU6050_TEMP_FIFO_EN_BIT	inc/MPU6050.h	220;"	d
+MPU6050_USERCTRL_DMP_EN_BIT	inc/MPU6050.h	351;"	d
+MPU6050_USERCTRL_DMP_RESET_BIT	inc/MPU6050.h	355;"	d
+MPU6050_USERCTRL_FIFO_EN_BIT	inc/MPU6050.h	352;"	d
+MPU6050_USERCTRL_FIFO_RESET_BIT	inc/MPU6050.h	356;"	d
+MPU6050_USERCTRL_I2C_IF_DIS_BIT	inc/MPU6050.h	354;"	d
+MPU6050_USERCTRL_I2C_MST_EN_BIT	inc/MPU6050.h	353;"	d
+MPU6050_USERCTRL_I2C_MST_RESET_BIT	inc/MPU6050.h	357;"	d
+MPU6050_USERCTRL_SIG_COND_RESET_BIT	inc/MPU6050.h	358;"	d
+MPU6050_VDDIO_LEVEL_VDD	inc/MPU6050.h	168;"	d
+MPU6050_VDDIO_LEVEL_VLOGIC	inc/MPU6050.h	167;"	d
+MPU6050_WAIT_FOR_ES_BIT	inc/MPU6050.h	230;"	d
+MPU6050_WAKE_FREQ_10	inc/MPU6050.h	387;"	d
+MPU6050_WAKE_FREQ_1P25	inc/MPU6050.h	384;"	d
+MPU6050_WAKE_FREQ_2P5	inc/MPU6050.h	385;"	d
+MPU6050_WAKE_FREQ_5	inc/MPU6050.h	386;"	d
+MPU6050_WHO_AM_I_BIT	inc/MPU6050.h	394;"	d
+MPU6050_WHO_AM_I_LENGTH	inc/MPU6050.h	395;"	d
+MPU6050_XG_FIFO_EN_BIT	inc/MPU6050.h	221;"	d
+MPU6050_YG_FIFO_EN_BIT	inc/MPU6050.h	222;"	d
+MPU6050_ZG_FIFO_EN_BIT	inc/MPU6050.h	223;"	d
+MPU_SAMPLE_RATE	inc/define_J.h	27;"	d
+MS5607	src/ms5607.c	/^MS5607_t MS5607;$/;"	v
+MS5607CompensatePressure	src/ms5607.c	/^uint32_t MS5607CompensatePressure(uint32_t D1)	 \/\/ Compensate pressure$/;"	f
+MS5607CompensateTemperature	src/ms5607.c	/^int32_t MS5607CompensateTemperature(uint32_t D2)	 \/\/ Compensate temperature$/;"	f
+MS5607ReadPressureWhenAvailable	src/ms5607.c	/^uint32_t MS5607ReadPressureWhenAvailable(void)$/;"	f
+MS5607ReadTemperatureWhenAvailable	src/ms5607.c	/^uint32_t MS5607ReadTemperatureWhenAvailable(void)$/;"	f
+MS5607SensorStartTemperatureSampling	src/ms5607.c	/^void MS5607SensorStartTemperatureSampling(void)$/;"	f
+MS5607Start	src/ms5607.c	/^void MS5607Start(void)$/;"	f
+MS5607StartPressureSampling	src/ms5607.c	/^void MS5607StartPressureSampling (void)$/;"	f
+MS5607_H_	inc/ms5607.h	9;"	d
+MS5607_I2C_ADDR	src/ms5607.c	23;"	d	file:
+MS5607_t	inc/ms5607.h	/^}MS5607_t;$/;"	t	typeref:struct:__anon3
+MahonyAHRS_h	inc/MahonyAHRS.h	14;"	d
+MahonyAHRSupdate	src/MahonyAHRS.cpp	/^void MahonyAHRSupdate(float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz) {$/;"	f
+MahonyAHRSupdateIMU	src/MahonyAHRS.cpp	/^void MahonyAHRSupdateIMU(float gx, float gy, float gz, float ax, float ay, float az) {$/;"	f
+NB	inc/HAL_pid_J.h	89;"	d
+NS	inc/HAL_pid_J.h	88;"	d
+NUMERATOR	inc/lpf_J.h	10;"	d
+NUMERATOR	src/lpf_J.c	27;"	d	file:
+NUMERATOR	test/iir_test.c	11;"	d	file:
+N_th_order	inc/lpf_J.h	9;"	d
+N_th_order	src/lpf_J.c	26;"	d	file:
+N_th_order	test/iir_test.c	10;"	d	file:
+P	inc/KalmanJ.h	/^    float P[2][2]; \/\/ Error covariance matrix - This is a 2x2 matrix$/;"	m	struct:Kalman_t
+P6_SPI1_BAD	inc/ultra_snd.h	35;"	d
+PB	inc/HAL_pid_J.h	85;"	d
+PITCH	inc/HAL_pid_J.h	/^PITCH=1,$/;"	e	enum:__anon7
+PRESS	inc/HAL_pid_J.h	/^PRESS=6,$/;"	e	enum:__anon7
+PRINTF_CLEAR	main.cpp	63;"	d	file:
+PRINTF_FIRST	main.cpp	62;"	d	file:
+PRINT_BUG	controller/controller.cpp	24;"	d	file:
+PRINT_BUG	inc/define_J.h	17;"	d
+PRINT_BUG	src/define_J.cpp	/^void PRINT_BUG(uint32_t aa, char * str,...){$/;"	f
+PRINT_NOTICE	main.cpp	/^void PRINT_NOTICE(){$/;"	f
+PRINT_STATE	main.cpp	/^void PRINT_STATE(){$/;"	f
+PROGMEM	inc/MPU6050_6Axis_MotionApps20.h	/^const prog_uchar dmpConfig[MPU6050_DMP_CONFIG_SIZE] PROGMEM = {$/;"	v
+PROGMEM	inc/MPU6050_6Axis_MotionApps20.h	/^const prog_uchar dmpMemory[MPU6050_DMP_CODE_SIZE] PROGMEM = {$/;"	v
+PROGMEM	inc/MPU6050_6Axis_MotionApps20.h	/^const prog_uchar dmpUpdates[MPU6050_DMP_UPDATES_SIZE] PROGMEM = {$/;"	v
+PROGMEM	inc/MPU6050_6Axis_MotionApps20.h	92;"	d
+PS	inc/HAL_pid_J.h	86;"	d
+PWM_DELOS_REQUEST	inc/pwm_ioctl.h	115;"	d
+PWM_DELOS_SET_CTRL	inc/pwm_ioctl.h	114;"	d
+PWM_DELOS_SET_RATIOS	inc/pwm_ioctl.h	112;"	d
+PWM_DELOS_SET_SPEEDS	inc/pwm_ioctl.h	113;"	d
+PWM_DEV	inc/pwm_J.h	5;"	d
+PWM_GET_FREQ	inc/pwm_ioctl.h	91;"	d
+PWM_GET_WIDTH	inc/pwm_ioctl.h	107;"	d
+PWM_GET_WIDTH_8BITS_RATIO_MODE	inc/pwm_ioctl.h	123;"	d
+PWM_MAGIC	inc/pwm_ioctl.h	39;"	d
+PWM_MAX	inc/pwm_ioctl.h	44;"	d
+PWM_RELEASE	inc/pwm_ioctl.h	62;"	d
+PWM_REQUEST	inc/pwm_ioctl.h	56;"	d
+PWM_SET_FREQ	inc/pwm_ioctl.h	84;"	d
+PWM_SET_FREQ_8BITS_RATIO_MODE	inc/pwm_ioctl.h	121;"	d
+PWM_SET_WIDTH	inc/pwm_ioctl.h	100;"	d
+PWM_SET_WIDTH_8BITS_RATIO_MODE	inc/pwm_ioctl.h	122;"	d
+PWM_START	inc/pwm_ioctl.h	69;"	d
+PWM_STOP	inc/pwm_ioctl.h	76;"	d
+PWM_WIDTH_8BITS_RATIO_MODE_MAX	inc/pwm_ioctl.h	119;"	d
+PWM_WIDTH_MAX	inc/pwm_ioctl.h	93;"	d
+Q1	inc/Kalman_J.h	9;"	d
+Q2	inc/Kalman_J.h	10;"	d
+Q3	inc/Kalman_J.h	11;"	d
+Q_angle	inc/KalmanJ.h	/^    float Q_angle; \/\/ Process noise variance for the accelerometer$/;"	m	struct:Kalman_t
+Q_bias	inc/KalmanJ.h	/^    float Q_bias; \/\/ Process noise variance for the gyro bias$/;"	m	struct:Kalman_t
+Quaternion	inc/helper_3dmath.h	/^        Quaternion() {$/;"	f	class:Quaternion
+Quaternion	inc/helper_3dmath.h	/^        Quaternion(float nw, float nx, float ny, float nz) {$/;"	f	class:Quaternion
+Quaternion	inc/helper_3dmath.h	/^class Quaternion {$/;"	c
+R1	inc/Kalman_J.h	14;"	d
+R2	inc/Kalman_J.h	15;"	d
+RAD_TO_DEG	inc/define_J.h	10;"	d
+READBIT	controller/controller.cpp	23;"	d	file:
+READ_C1_H	inc/ms5607.h	/^	READ_C1_H = 0xA2,$/;"	e	enum:__anon4
+READ_C1_L	inc/ms5607.h	/^	READ_C1_L = 0xA3,$/;"	e	enum:__anon4
+READ_C2_H	inc/ms5607.h	/^	READ_C2_H = 0xA4,$/;"	e	enum:__anon4
+READ_C2_L	inc/ms5607.h	/^	READ_C2_L = 0xA5,$/;"	e	enum:__anon4
+READ_C3_H	inc/ms5607.h	/^	READ_C3_H = 0xA6,$/;"	e	enum:__anon4
+READ_C3_L	inc/ms5607.h	/^	READ_C3_L = 0xA7,$/;"	e	enum:__anon4
+READ_C4_H	inc/ms5607.h	/^	READ_C4_H = 0xA8,$/;"	e	enum:__anon4
+READ_C4_L	inc/ms5607.h	/^	READ_C4_L = 0xA9,$/;"	e	enum:__anon4
+READ_C5_H	inc/ms5607.h	/^	READ_C5_H = 0xAA,$/;"	e	enum:__anon4
+READ_C5_L	inc/ms5607.h	/^	READ_C5_L = 0xAB,$/;"	e	enum:__anon4
+READ_C6_H	inc/ms5607.h	/^	READ_C6_H = 0xAC,$/;"	e	enum:__anon4
+READ_C6_L	inc/ms5607.h	/^	READ_C6_L = 0xAD,$/;"	e	enum:__anon4
+READ_CRC_H	inc/ms5607.h	/^	READ_CRC_H = 0xAE,$/;"	e	enum:__anon4
+READ_CRC_L	inc/ms5607.h	/^	READ_CRC_L = 0xAF,$/;"	e	enum:__anon4
+REF_COUNT	inc/HAL_pid_J.h	14;"	d
+RESET	inc/ms5607.h	/^	RESET = 0x1E,$/;"	e	enum:__anon4
+RESETBIT	controller/controller.cpp	22;"	d	file:
+RESET_BIT	main.cpp	60;"	d	file:
+ROLL	inc/HAL_pid_J.h	/^ROLL=0,$/;"	e	enum:__anon7
+RPY_CALI	main.cpp	/^float_j_t RPY_CALI[3];$/;"	v
+R_measure	inc/KalmanJ.h	/^    float R_measure; \/\/ Measurement noise variance - this is actually the variance of the measurement noise$/;"	m	struct:Kalman_t
+Reserved	inc/ms5607.h	/^	uint16_t Reserved;$/;"	m	struct:__anon3
+SENSOR_PRESSURE_OSR	inc/ms5607.h	69;"	d
+SENSOR_TEMPERATURE_OSR	inc/ms5607.h	66;"	d
+SENSRO_CMD	main.cpp	/^}SENSRO_CMD;$/;"	t	typeref:enum:__anon1	file:
+SETBIT	controller/controller.cpp	21;"	d	file:
+SET_BIT	main.cpp	59;"	d	file:
+SIXTEEN_FOUR_DEPHASED_PULSE	inc/ultra_snd.h	/^	SIXTEEN_FOUR_DEPHASED_PULSE,$/;"	e	enum:pulse_mode
+SIXTEEN_PULSE	inc/ultra_snd.h	/^	SIXTEEN_PULSE,$/;"	e	enum:pulse_mode
+SIZEMAX	inc/ultra_snd.h	29;"	d
+SPIMAX	inc/ultra_snd.h	31;"	d
+SPI_CTRL	inc/ultra_snd.h	36;"	d
+SPI_DATA	inc/ultra_snd.h	42;"	d
+SPI_SIZE	inc/ultra_snd.h	39;"	d
+SPI_SPEED	inc/ultra_snd.h	37;"	d
+SPI_STATUS	inc/ultra_snd.h	38;"	d
+SPI_THRES_RX	inc/ultra_snd.h	40;"	d
+SPI_THRES_TX	inc/ultra_snd.h	41;"	d
+SRCDIR	Makefile	/^SRCDIR=src$/;"	m
+S_ABS_ACC	main.cpp	/^    S_ABS_ACC = 7,$/;"	e	enum:__anon1	file:
+S_ACCEL	main.cpp	/^    S_ACCEL=0,$/;"	e	enum:__anon1	file:
+S_BARO	main.cpp	/^    S_BARO=4,$/;"	e	enum:__anon1	file:
+S_BATT	main.cpp	/^    S_BATT=3,$/;"	e	enum:__anon1	file:
+S_GYRO	main.cpp	/^    S_GYRO=1,$/;"	e	enum:__anon1	file:
+S_REF_MODEL	main.cpp	/^    S_REF_MODEL = 8,$/;"	e	enum:__anon1	file:
+S_RPY	main.cpp	/^    S_RPY=2,$/;"	e	enum:__anon1	file:
+S_dT	main.cpp	/^    S_dT=5,$/;"	e	enum:__anon1	file:
+Section	inc/lpf_J.h	12;"	d
+Section	src/lpf_J.c	29;"	d	file:
+Section	test/iir_test.c	13;"	d	file:
+TIMER_EMER	main.cpp	/^int TIMER_EMER =1;$/;"	v
+TRUE	inc/I2Cdev.h	49;"	d
+TWELVE_FIVE_DEPHASED_PULSE	inc/ultra_snd.h	/^	TWELVE_FIVE_DEPHASED_PULSE,$/;"	e	enum:pulse_mode
+TimerWait	main.cpp	/^int TimerWait()$/;"	f
+TimerWorking	main.cpp	/^int TimerWorking(long nperiod, long nendtime){\/\/if endtime == 0 then infinite  wait for timer $/;"	f
+Timer_check	main.cpp	/^int Timer_check(){$/;"	f
+ULTRA_SND_NAME	inc/ultra_snd.h	27;"	d
+USND_COPYSAMPLE	inc/ultra_snd.h	57;"	d
+USND_IOC_MAXNR	inc/ultra_snd.h	72;"	d
+USND_IO_MAGIC	inc/ultra_snd.h	55;"	d
+USND_SETSIZE	inc/ultra_snd.h	56;"	d
+USND_SPI_DAT	inc/ultra_snd.h	59;"	d
+USND_SPI_LEN	inc/ultra_snd.h	58;"	d
+VectorFloat	inc/helper_3dmath.h	/^        VectorFloat() {$/;"	f	class:VectorFloat
+VectorFloat	inc/helper_3dmath.h	/^        VectorFloat(float nx, float ny, float nz) {$/;"	f	class:VectorFloat
+VectorFloat	inc/helper_3dmath.h	/^class VectorFloat {$/;"	c
+VectorInt16	inc/helper_3dmath.h	/^        VectorInt16() {$/;"	f	class:VectorInt16
+VectorInt16	inc/helper_3dmath.h	/^        VectorInt16(int16_t nx, int16_t ny, int16_t nz) {$/;"	f	class:VectorInt16
+VectorInt16	inc/helper_3dmath.h	/^class VectorInt16 {$/;"	c
+WEIGHT	inc/HAL_pid_J.h	11;"	d
+WEIGHT_P_ERR	main.cpp	200;"	d	file:
+XAXIS	inc/HAL_pid_J.h	/^XAXIS=3,$/;"	e	enum:__anon7
+YAW	inc/HAL_pid_J.h	/^YAW=2,$/;"	e	enum:__anon7
+YAXIS	inc/HAL_pid_J.h	/^YAXIS=4,$/;"	e	enum:__anon7
+YE_LPF_FACTOR	src/HAL_pid_J.cpp	713;"	d	file:
+Ye_div_factor	inc/HAL_pid_J.h	/^    motor_t Ye_div_factor;$/;"	m	struct:pid_control_t
+Ye_prev	inc/HAL_pid_J.h	/^    motor_t Ye_prev;$/;"	m	struct:pid_control_t
+ZAXIS	inc/HAL_pid_J.h	/^ZAXIS=5,$/;"	e	enum:__anon7
+ZE	inc/HAL_pid_J.h	87;"	d
+_2by2_inverseMatrix	src/Extended_Kalman.cpp	/^int _2by2_inverseMatrix(float_j_t in[][3], float_j_t out[][3], int row, int col){$/;"	f
+_2by2_inverseMatrix	test/Extended_Kalman.c	/^int _2by2_inverseMatrix(float_j_t in[][3], float_j_t out[][3], int row, int col){$/;"	f
+_GPIO_IOCTL_H	inc/gpio2_ioctl.h	43;"	d
+_GPIO_J_h_	inc/gpio_J.h	2;"	d
+_HAL_MOTOR_J_h_	inc/HAL_motor_J.h	2;"	d
+_HAL_PID_J_h_	inc/HAL_pid_J.h	2;"	d
+_HAL_SENSOR_J_h_	inc/HAL_sensor_J.h	2;"	d
+_HELPER_3DMATH_H_	inc/helper_3dmath.h	33;"	d
+_I2CDEV_H_	inc/I2Cdev.h	45;"	d
+_I2C_J_h_	inc/i2c_J.h	2;"	d
+_KALMAN_H	inc/Kalman_J.h	4;"	d
+_Kalman_h_	inc/KalmanJ.h	19;"	d
+_MPU6050_6AXIS_MOTIONAPPS20_H_	inc/MPU6050_6Axis_MotionApps20.h	34;"	d
+_MPU6050_H_	inc/MPU6050.h	38;"	d
+_MPU_6050_J_h_	inc/mpu6050_J.h	2;"	d
+_PWM_IOCTL_H	inc/pwm_ioctl.h	35;"	d
+_PWM_J_h_	inc/pwm_J.h	2;"	d
+_ULTRA_SND_H	inc/ultra_snd.h	13;"	d
+__BATTERY_J__	inc/battery_J.h	2;"	d
+__EKF__	inc/Extended_Kalman.h	2;"	d
+__IIR_DIRECT_FORM_2__	inc/lpf_J.h	4;"	d
+__IIR_DIRECT_FORM_2__	src/lpf_J.c	21;"	d	file:
+__IIR_DIRECT_FORM_2__	test/iir_test.c	6;"	d	file:
+_kalman_data	inc/Kalman_J.h	/^struct _kalman_data$/;"	s
+aai_readl	inc/ultra_snd.h	47;"	d
+aai_writel	inc/ultra_snd.h	44;"	d
+accX	inc/HAL_sensor_J.h	/^sensor_t accX;$/;"	m	struct:sensor_struct_t
+accX	inc/mpu6050_J.h	/^int16_t accX, accY, accZ;$/;"	m	struct:mpu6050_struct_t
+accX	test/Extended_Kalman.c	/^		float accX;$/;"	m	struct:sensor_struct_t	file:
+accY	inc/HAL_sensor_J.h	/^sensor_t accY;$/;"	m	struct:sensor_struct_t
+accY	inc/mpu6050_J.h	/^int16_t accX, accY, accZ;$/;"	m	struct:mpu6050_struct_t
+accY	test/Extended_Kalman.c	/^		float accY;$/;"	m	struct:sensor_struct_t	file:
+accZ	inc/HAL_sensor_J.h	/^sensor_t accZ;$/;"	m	struct:sensor_struct_t
+accZ	inc/mpu6050_J.h	/^int16_t accX, accY, accZ;$/;"	m	struct:mpu6050_struct_t
+accZ	test/Extended_Kalman.c	/^		float accZ;$/;"	m	struct:sensor_struct_t	file:
+adaptive_control	src/HAL_pid_J.cpp	/^motor_t adaptive_control(motor_t pid_out, motor_t adaptive_theta){$/;"	f
+adaptive_init	src/HAL_pid_J.cpp	/^void adaptive_init(pid_control_t* p){$/;"	f
+adaptive_pid_control	src/HAL_pid_J.cpp	/^motor_t adaptive_pid_control(pid_control_t* control){$/;"	f
+adaptive_ref_sys_model	src/HAL_pid_J.cpp	/^int adaptive_ref_sys_model(pid_control_t* p ,motor_t input,motor_t dt){$/;"	f
+adaptive_setFuzzy_factor	src/HAL_pid_J.cpp	/^void adaptive_setFuzzy_factor(pid_control_t* p,float_j_t Ye, float_j_t dYe_dt){$/;"	f
+adaptive_setFuzzy_ref_table	src/HAL_pid_J.cpp	/^void adaptive_setFuzzy_ref_table(pid_control_t* p , int matrix[FUZZY_TABLE]){$/;"	f
+adaptive_setFuzzy_table	src/HAL_pid_J.cpp	/^void adaptive_setFuzzy_table(pid_control_t* p, int matrix[FUZZY_TABLE][FUZZY_TABLE]){$/;"	f
+adaptive_setGamma	src/HAL_pid_J.cpp	/^void adaptive_setGamma(pid_control_t*p,motor_t val){$/;"	f
+adaptive_theta	inc/HAL_pid_J.h	/^    motor_t adaptive_theta;$/;"	m	struct:pid_control_t
+adaptive_theta_calc	src/HAL_pid_J.cpp	/^int adaptive_theta_calc(pid_control_t* p , motor_t plant_feedback,float_j_t dt){$/;"	f
+adc_data_t	inc/ultra_snd.h	/^struct adc_data_t{$/;"	s
+angle	inc/KalmanJ.h	/^    float angle; \/\/ The angle calculated by the Kalman filter - part of the 2x1 state vector$/;"	m	struct:Kalman_t
+batt_fuzzy_num	main.cpp	164;"	d	file:
+batt_fuzzy_table	main.cpp	/^float_j_t batt_fuzzy_table[2][12]={$/;"	v
+battery_adc	main.cpp	/^int battery_adc=900;$/;"	v
+battery_init	src/battery_J.cpp	/^int battery_init()$/;"	f
+battery_read	src/battery_J.cpp	/^int battery_read(int *val){$/;"	f
+bias	inc/KalmanJ.h	/^    float bias; \/\/ The gyro bias calculated by the Kalman filter - part of the 2x1 state vector$/;"	m	struct:Kalman_t
+ble_call	main.cpp	/^void ble_call(){$/;"	f
+buffer	inc/MPU6050.h	/^        uint8_t buffer[14];$/;"	m	class:MPU6050
+clean_stdin	main.cpp	/^void clean_stdin(void)$/;"	f
+client_sockfd	controller/controller.cpp	/^int client_sockfd=1;$/;"	v
+cnt	main.cpp	/^uint32_t cnt;$/;"	v
+controller	main.cpp	/^int controller(void){$/;"	f
+crc4	src/ms5607.c	/^unsigned char crc4(unsigned int n_prom[])$/;"	f
+cycles	inc/ultra_snd.h	/^	uint64_t cycles;$/;"	m	struct:timed_buf
+dT	inc/ms5607.h	/^	int32_t dT;   \/\/ Difference between actual and reference temperature$/;"	m	struct:__anon3
+dYe_dt_div_factor	inc/HAL_pid_J.h	/^    motor_t dYe_dt_div_factor;$/;"	m	struct:pid_control_t
+dYe_dt_prev	inc/HAL_pid_J.h	/^    motor_t dYe_dt_prev;$/;"	m	struct:pid_control_t
+devAddr	inc/MPU6050.h	/^        uint8_t devAddr;$/;"	m	class:MPU6050
+device_init	src/mpu6050_J.cpp	/^int device_init(int fd)$/;"	f
+dmpGetAccel	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetAccel(VectorInt16 *v, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetAccel	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetAccel(int16_t *data, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetAccel	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetAccel(int32_t *data, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetEuler	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetEuler(float *data, Quaternion *q) {$/;"	f	class:MPU6050
+dmpGetFIFOPacketSize	inc/MPU6050_6Axis_MotionApps20.h	/^uint16_t MPU6050::dmpGetFIFOPacketSize() {$/;"	f	class:MPU6050
+dmpGetGravity	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetGravity(VectorFloat *v, Quaternion *q) {$/;"	f	class:MPU6050
+dmpGetGyro	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetGyro(int16_t *data, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetGyro	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetGyro(int32_t *data, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetLinearAccel	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetLinearAccel(VectorInt16 *v, VectorInt16 *vRaw, VectorFloat *gravity) {$/;"	f	class:MPU6050
+dmpGetLinearAccelInWorld	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetLinearAccelInWorld(VectorInt16 *v, VectorInt16 *vReal, Quaternion *q) {$/;"	f	class:MPU6050
+dmpGetQuaternion	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetQuaternion(Quaternion *q, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetQuaternion	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetQuaternion(int16_t *data, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetQuaternion	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetQuaternion(int32_t *data, const uint8_t* packet) {$/;"	f	class:MPU6050
+dmpGetYawPitchRoll	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpGetYawPitchRoll(float *data, Quaternion *q, VectorFloat *gravity) {$/;"	f	class:MPU6050
+dmpInitialize	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpInitialize() {$/;"	f	class:MPU6050
+dmpPacketAvailable	inc/MPU6050_6Axis_MotionApps20.h	/^bool MPU6050::dmpPacketAvailable() {$/;"	f	class:MPU6050
+dmpPacketBuffer	inc/MPU6050.h	/^            uint8_t *dmpPacketBuffer;$/;"	m	class:MPU6050
+dmpPacketSize	inc/MPU6050.h	/^            uint16_t dmpPacketSize;$/;"	m	class:MPU6050
+dmpProcessFIFOPacket	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpProcessFIFOPacket(const unsigned char *dmpData) {$/;"	f	class:MPU6050
+dmpReadAndProcessFIFOPacket	inc/MPU6050_6Axis_MotionApps20.h	/^uint8_t MPU6050::dmpReadAndProcessFIFOPacket(uint8_t numPackets, uint8_t *processed) {$/;"	f	class:MPU6050
+dt	main.cpp	/^float_j_t dt;$/;"	v
+dt_prev	main.cpp	/^float_j_t dt_prev;$/;"	v
+end_point	main.cpp	/^struct timeval start_point, end_point;$/;"	v	typeref:struct:
+err	inc/HAL_pid_J.h	/^	motor_t err;$/;"	m	struct:pid_control_t
+errD	inc/HAL_pid_J.h	/^	motor_t errD;$/;"	m	struct:pid_control_t
+errI	inc/HAL_pid_J.h	/^	motor_t errI;$/;"	m	struct:pid_control_t
+err_prev	inc/HAL_pid_J.h	/^	motor_t err_prev;$/;"	m	struct:pid_control_t
+evval	test/controller.c	/^static const char *const evval[3] = {$/;"	v	file:
+fd_gpio	src/gpio_J.cpp	/^int fd_gpio;$/;"	v
+fd_pwm	src/pwm_J.cpp	/^	int fd_pwm;$/;"	v
+fd_sensor	src/i2c_J.cpp	/^int fd_sensor;$/;"	v
+fd_ultra	src/battery_J.cpp	/^int fd_ultra;$/;"	v
+fda	fda.m	/^function Hd = fda$/;"	f
+filter_j	filter_j.m	/^function A = filter_j(n)$/;"	f
+filter_move_average	main.cpp	/^uint32_t filter_move_average(uint32_t input){$/;"	f
+filter_t	inc/HAL_sensor_J.h	/^}filter_t;$/;"	t	typeref:enum:__anon6
+find_system	main.cpp	/^int find_system(char* str){$/;"	f
+float_j_t	inc/define_J.h	/^typedef float float_j_t ;$/;"	t
+float_j_t	test/Extended_Kalman.c	/^typedef float float_j_t;$/;"	t	file:
+float_j_t	test/iir_test.c	/^typedef float float_j_t;$/;"	t	file:
+fuzzy_membership_function	src/HAL_pid_J.cpp	/^float_j_t fuzzy_membership_function(pid_control_t* pid, float_j_t x, int desire){$/;"	f
+fuzzy_ref_table	inc/HAL_pid_J.h	/^    int fuzzy_ref_table[FUZZY_TABLE];$/;"	m	struct:pid_control_t
+fuzzy_table	inc/HAL_pid_J.h	/^    int fuzzy_table[FUZZY_TABLE][FUZZY_TABLE];$/;"	m	struct:pid_control_t
+gamma_factor	inc/HAL_pid_J.h	/^    motor_t gamma_factor;$/;"	m	struct:pid_control_t
+getAccelFIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getAccelFIFOEnabled() {$/;"	f	class:MPU6050
+getAccelXSelfTest	src/MPU6050.cpp	/^bool MPU6050::getAccelXSelfTest() {$/;"	f	class:MPU6050
+getAccelYSelfTest	src/MPU6050.cpp	/^bool MPU6050::getAccelYSelfTest() {$/;"	f	class:MPU6050
+getAccelZSelfTest	src/MPU6050.cpp	/^bool MPU6050::getAccelZSelfTest() {$/;"	f	class:MPU6050
+getAcceleration	src/MPU6050.cpp	/^void MPU6050::getAcceleration(int16_t* x, int16_t* y, int16_t* z) {$/;"	f	class:MPU6050
+getAccelerationX	src/MPU6050.cpp	/^int16_t MPU6050::getAccelerationX() {$/;"	f	class:MPU6050
+getAccelerationY	src/MPU6050.cpp	/^int16_t MPU6050::getAccelerationY() {$/;"	f	class:MPU6050
+getAccelerationZ	src/MPU6050.cpp	/^int16_t MPU6050::getAccelerationZ() {$/;"	f	class:MPU6050
+getAccelerometerPowerOnDelay	src/MPU6050.cpp	/^uint8_t MPU6050::getAccelerometerPowerOnDelay() {$/;"	f	class:MPU6050
+getAuxVDDIOLevel	src/MPU6050.cpp	/^uint8_t MPU6050::getAuxVDDIOLevel() {$/;"	f	class:MPU6050
+getClockOutputEnabled	src/MPU6050.cpp	/^bool MPU6050::getClockOutputEnabled() {$/;"	f	class:MPU6050
+getClockSource	src/MPU6050.cpp	/^uint8_t MPU6050::getClockSource() {$/;"	f	class:MPU6050
+getConjugate	inc/helper_3dmath.h	/^        Quaternion getConjugate() {$/;"	f	class:Quaternion
+getDHPFMode	src/MPU6050.cpp	/^uint8_t MPU6050::getDHPFMode() {$/;"	f	class:MPU6050
+getDLPFMode	src/MPU6050.cpp	/^uint8_t MPU6050::getDLPFMode() {$/;"	f	class:MPU6050
+getDMPConfig1	src/MPU6050.cpp	/^uint8_t MPU6050::getDMPConfig1() {$/;"	f	class:MPU6050
+getDMPConfig2	src/MPU6050.cpp	/^uint8_t MPU6050::getDMPConfig2() {$/;"	f	class:MPU6050
+getDMPEnabled	src/MPU6050.cpp	/^bool MPU6050::getDMPEnabled() {$/;"	f	class:MPU6050
+getDMPInt0Status	src/MPU6050.cpp	/^bool MPU6050::getDMPInt0Status() {$/;"	f	class:MPU6050
+getDMPInt1Status	src/MPU6050.cpp	/^bool MPU6050::getDMPInt1Status() {$/;"	f	class:MPU6050
+getDMPInt2Status	src/MPU6050.cpp	/^bool MPU6050::getDMPInt2Status() {$/;"	f	class:MPU6050
+getDMPInt3Status	src/MPU6050.cpp	/^bool MPU6050::getDMPInt3Status() {$/;"	f	class:MPU6050
+getDMPInt4Status	src/MPU6050.cpp	/^bool MPU6050::getDMPInt4Status() {$/;"	f	class:MPU6050
+getDMPInt5Status	src/MPU6050.cpp	/^bool MPU6050::getDMPInt5Status() {$/;"	f	class:MPU6050
+getDeviceID	src/MPU6050.cpp	/^uint8_t MPU6050::getDeviceID() {$/;"	f	class:MPU6050
+getExternalFrameSync	src/MPU6050.cpp	/^uint8_t MPU6050::getExternalFrameSync() {$/;"	f	class:MPU6050
+getExternalSensorByte	src/MPU6050.cpp	/^uint8_t MPU6050::getExternalSensorByte(int position) {$/;"	f	class:MPU6050
+getExternalSensorDWord	src/MPU6050.cpp	/^uint32_t MPU6050::getExternalSensorDWord(int position) {$/;"	f	class:MPU6050
+getExternalSensorWord	src/MPU6050.cpp	/^uint16_t MPU6050::getExternalSensorWord(int position) {$/;"	f	class:MPU6050
+getExternalShadowDelayEnabled	src/MPU6050.cpp	/^bool MPU6050::getExternalShadowDelayEnabled() {$/;"	f	class:MPU6050
+getFIFOByte	src/MPU6050.cpp	/^uint8_t MPU6050::getFIFOByte() {$/;"	f	class:MPU6050
+getFIFOBytes	src/MPU6050.cpp	/^void MPU6050::getFIFOBytes(uint8_t *data, uint8_t length) {$/;"	f	class:MPU6050
+getFIFOCount	src/MPU6050.cpp	/^uint16_t MPU6050::getFIFOCount() {$/;"	f	class:MPU6050
+getFIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getFIFOEnabled() {$/;"	f	class:MPU6050
+getFSyncInterruptEnabled	src/MPU6050.cpp	/^bool MPU6050::getFSyncInterruptEnabled() {$/;"	f	class:MPU6050
+getFSyncInterruptLevel	src/MPU6050.cpp	/^bool MPU6050::getFSyncInterruptLevel() {$/;"	f	class:MPU6050
+getFreefallDetectionCounterDecrement	src/MPU6050.cpp	/^uint8_t MPU6050::getFreefallDetectionCounterDecrement() {$/;"	f	class:MPU6050
+getFreefallDetectionDuration	src/MPU6050.cpp	/^uint8_t MPU6050::getFreefallDetectionDuration() {$/;"	f	class:MPU6050
+getFreefallDetectionThreshold	src/MPU6050.cpp	/^uint8_t MPU6050::getFreefallDetectionThreshold() {$/;"	f	class:MPU6050
+getFullScaleAccelRange	src/MPU6050.cpp	/^uint8_t MPU6050::getFullScaleAccelRange() {$/;"	f	class:MPU6050
+getFullScaleGyroRange	src/MPU6050.cpp	/^uint8_t MPU6050::getFullScaleGyroRange() {$/;"	f	class:MPU6050
+getI2CBypassEnabled	src/MPU6050.cpp	/^bool MPU6050::getI2CBypassEnabled() {$/;"	f	class:MPU6050
+getI2CMasterModeEnabled	src/MPU6050.cpp	/^bool MPU6050::getI2CMasterModeEnabled() {$/;"	f	class:MPU6050
+getIntDMPEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntDMPEnabled() {$/;"	f	class:MPU6050
+getIntDMPStatus	src/MPU6050.cpp	/^bool MPU6050::getIntDMPStatus() {$/;"	f	class:MPU6050
+getIntDataReadyEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntDataReadyEnabled() {$/;"	f	class:MPU6050
+getIntDataReadyStatus	src/MPU6050.cpp	/^bool MPU6050::getIntDataReadyStatus() {$/;"	f	class:MPU6050
+getIntEnabled	src/MPU6050.cpp	/^uint8_t MPU6050::getIntEnabled() {$/;"	f	class:MPU6050
+getIntFIFOBufferOverflowEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntFIFOBufferOverflowEnabled() {$/;"	f	class:MPU6050
+getIntFIFOBufferOverflowStatus	src/MPU6050.cpp	/^bool MPU6050::getIntFIFOBufferOverflowStatus() {$/;"	f	class:MPU6050
+getIntFreefallEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntFreefallEnabled() {$/;"	f	class:MPU6050
+getIntFreefallStatus	src/MPU6050.cpp	/^bool MPU6050::getIntFreefallStatus() {$/;"	f	class:MPU6050
+getIntI2CMasterEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntI2CMasterEnabled() {$/;"	f	class:MPU6050
+getIntI2CMasterStatus	src/MPU6050.cpp	/^bool MPU6050::getIntI2CMasterStatus() {$/;"	f	class:MPU6050
+getIntMotionEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntMotionEnabled() {$/;"	f	class:MPU6050
+getIntMotionStatus	src/MPU6050.cpp	/^bool MPU6050::getIntMotionStatus() {$/;"	f	class:MPU6050
+getIntPLLReadyEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntPLLReadyEnabled() {$/;"	f	class:MPU6050
+getIntPLLReadyStatus	src/MPU6050.cpp	/^bool MPU6050::getIntPLLReadyStatus() {$/;"	f	class:MPU6050
+getIntStatus	src/MPU6050.cpp	/^uint8_t MPU6050::getIntStatus() {$/;"	f	class:MPU6050
+getIntZeroMotionEnabled	src/MPU6050.cpp	/^bool MPU6050::getIntZeroMotionEnabled() {$/;"	f	class:MPU6050
+getIntZeroMotionStatus	src/MPU6050.cpp	/^bool MPU6050::getIntZeroMotionStatus() {$/;"	f	class:MPU6050
+getInterruptDrive	src/MPU6050.cpp	/^bool MPU6050::getInterruptDrive() {$/;"	f	class:MPU6050
+getInterruptLatch	src/MPU6050.cpp	/^bool MPU6050::getInterruptLatch() {$/;"	f	class:MPU6050
+getInterruptLatchClear	src/MPU6050.cpp	/^bool MPU6050::getInterruptLatchClear() {$/;"	f	class:MPU6050
+getInterruptMode	src/MPU6050.cpp	/^bool MPU6050::getInterruptMode() {$/;"	f	class:MPU6050
+getLostArbitration	src/MPU6050.cpp	/^bool MPU6050::getLostArbitration() {$/;"	f	class:MPU6050
+getMagnitude	inc/helper_3dmath.h	/^        float getMagnitude() {$/;"	f	class:Quaternion
+getMagnitude	inc/helper_3dmath.h	/^        float getMagnitude() {$/;"	f	class:VectorFloat
+getMagnitude	inc/helper_3dmath.h	/^        float getMagnitude() {$/;"	f	class:VectorInt16
+getMasterClockSpeed	src/MPU6050.cpp	/^uint8_t MPU6050::getMasterClockSpeed() {$/;"	f	class:MPU6050
+getMotion6	src/MPU6050.cpp	/^void MPU6050::getMotion6(int16_t* ax, int16_t* ay, int16_t* az, int16_t* gx, int16_t* gy, int16_t* gz) {$/;"	f	class:MPU6050
+getMotion9	src/MPU6050.cpp	/^void MPU6050::getMotion9(int16_t* ax, int16_t* ay, int16_t* az, int16_t* gx, int16_t* gy, int16_t* gz, int16_t* mx, int16_t* my, int16_t* mz) {$/;"	f	class:MPU6050
+getMotionDetectionCounterDecrement	src/MPU6050.cpp	/^uint8_t MPU6050::getMotionDetectionCounterDecrement() {$/;"	f	class:MPU6050
+getMotionDetectionDuration	src/MPU6050.cpp	/^uint8_t MPU6050::getMotionDetectionDuration() {$/;"	f	class:MPU6050
+getMotionDetectionThreshold	src/MPU6050.cpp	/^uint8_t MPU6050::getMotionDetectionThreshold() {$/;"	f	class:MPU6050
+getMultiMasterEnabled	src/MPU6050.cpp	/^bool MPU6050::getMultiMasterEnabled() {$/;"	f	class:MPU6050
+getNormalized	inc/helper_3dmath.h	/^        Quaternion getNormalized() {$/;"	f	class:Quaternion
+getNormalized	inc/helper_3dmath.h	/^        VectorFloat getNormalized() {$/;"	f	class:VectorFloat
+getNormalized	inc/helper_3dmath.h	/^        VectorInt16 getNormalized() {$/;"	f	class:VectorInt16
+getOTPBankValid	src/MPU6050.cpp	/^uint8_t MPU6050::getOTPBankValid() {$/;"	f	class:MPU6050
+getPassthroughStatus	src/MPU6050.cpp	/^bool MPU6050::getPassthroughStatus() {$/;"	f	class:MPU6050
+getProduct	inc/helper_3dmath.h	/^        Quaternion getProduct(Quaternion q) {$/;"	f	class:Quaternion
+getRate	src/MPU6050.cpp	/^uint8_t MPU6050::getRate() {$/;"	f	class:MPU6050
+getRotated	inc/helper_3dmath.h	/^        VectorFloat getRotated(Quaternion *q) {$/;"	f	class:VectorFloat
+getRotated	inc/helper_3dmath.h	/^        VectorInt16 getRotated(Quaternion *q) {$/;"	f	class:VectorInt16
+getRotation	src/MPU6050.cpp	/^void MPU6050::getRotation(int16_t* x, int16_t* y, int16_t* z) {$/;"	f	class:MPU6050
+getRotationX	src/MPU6050.cpp	/^int16_t MPU6050::getRotationX() {$/;"	f	class:MPU6050
+getRotationY	src/MPU6050.cpp	/^int16_t MPU6050::getRotationY() {$/;"	f	class:MPU6050
+getRotationZ	src/MPU6050.cpp	/^int16_t MPU6050::getRotationZ() {$/;"	f	class:MPU6050
+getSlate4InputByte	src/MPU6050.cpp	/^uint8_t MPU6050::getSlate4InputByte() {$/;"	f	class:MPU6050
+getSlave0FIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlave0FIFOEnabled() {$/;"	f	class:MPU6050
+getSlave0Nack	src/MPU6050.cpp	/^bool MPU6050::getSlave0Nack() {$/;"	f	class:MPU6050
+getSlave1FIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlave1FIFOEnabled() {$/;"	f	class:MPU6050
+getSlave1Nack	src/MPU6050.cpp	/^bool MPU6050::getSlave1Nack() {$/;"	f	class:MPU6050
+getSlave2FIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlave2FIFOEnabled() {$/;"	f	class:MPU6050
+getSlave2Nack	src/MPU6050.cpp	/^bool MPU6050::getSlave2Nack() {$/;"	f	class:MPU6050
+getSlave3FIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlave3FIFOEnabled() {$/;"	f	class:MPU6050
+getSlave3Nack	src/MPU6050.cpp	/^bool MPU6050::getSlave3Nack() {$/;"	f	class:MPU6050
+getSlave4Address	src/MPU6050.cpp	/^uint8_t MPU6050::getSlave4Address() {$/;"	f	class:MPU6050
+getSlave4Enabled	src/MPU6050.cpp	/^bool MPU6050::getSlave4Enabled() {$/;"	f	class:MPU6050
+getSlave4InterruptEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlave4InterruptEnabled() {$/;"	f	class:MPU6050
+getSlave4IsDone	src/MPU6050.cpp	/^bool MPU6050::getSlave4IsDone() {$/;"	f	class:MPU6050
+getSlave4MasterDelay	src/MPU6050.cpp	/^uint8_t MPU6050::getSlave4MasterDelay() {$/;"	f	class:MPU6050
+getSlave4Nack	src/MPU6050.cpp	/^bool MPU6050::getSlave4Nack() {$/;"	f	class:MPU6050
+getSlave4Register	src/MPU6050.cpp	/^uint8_t MPU6050::getSlave4Register() {$/;"	f	class:MPU6050
+getSlave4WriteMode	src/MPU6050.cpp	/^bool MPU6050::getSlave4WriteMode() {$/;"	f	class:MPU6050
+getSlaveAddress	src/MPU6050.cpp	/^uint8_t MPU6050::getSlaveAddress(uint8_t num) {$/;"	f	class:MPU6050
+getSlaveDataLength	src/MPU6050.cpp	/^uint8_t MPU6050::getSlaveDataLength(uint8_t num) {$/;"	f	class:MPU6050
+getSlaveDelayEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlaveDelayEnabled(uint8_t num) {$/;"	f	class:MPU6050
+getSlaveEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlaveEnabled(uint8_t num) {$/;"	f	class:MPU6050
+getSlaveReadWriteTransitionEnabled	src/MPU6050.cpp	/^bool MPU6050::getSlaveReadWriteTransitionEnabled() {$/;"	f	class:MPU6050
+getSlaveRegister	src/MPU6050.cpp	/^uint8_t MPU6050::getSlaveRegister(uint8_t num) {$/;"	f	class:MPU6050
+getSlaveWordByteSwap	src/MPU6050.cpp	/^bool MPU6050::getSlaveWordByteSwap(uint8_t num) {$/;"	f	class:MPU6050
+getSlaveWordGroupOffset	src/MPU6050.cpp	/^bool MPU6050::getSlaveWordGroupOffset(uint8_t num) {$/;"	f	class:MPU6050
+getSlaveWriteMode	src/MPU6050.cpp	/^bool MPU6050::getSlaveWriteMode(uint8_t num) {$/;"	f	class:MPU6050
+getSleepEnabled	src/MPU6050.cpp	/^bool MPU6050::getSleepEnabled() {$/;"	f	class:MPU6050
+getStandbyXAccelEnabled	src/MPU6050.cpp	/^bool MPU6050::getStandbyXAccelEnabled() {$/;"	f	class:MPU6050
+getStandbyXGyroEnabled	src/MPU6050.cpp	/^bool MPU6050::getStandbyXGyroEnabled() {$/;"	f	class:MPU6050
+getStandbyYAccelEnabled	src/MPU6050.cpp	/^bool MPU6050::getStandbyYAccelEnabled() {$/;"	f	class:MPU6050
+getStandbyYGyroEnabled	src/MPU6050.cpp	/^bool MPU6050::getStandbyYGyroEnabled() {$/;"	f	class:MPU6050
+getStandbyZAccelEnabled	src/MPU6050.cpp	/^bool MPU6050::getStandbyZAccelEnabled() {$/;"	f	class:MPU6050
+getStandbyZGyroEnabled	src/MPU6050.cpp	/^bool MPU6050::getStandbyZGyroEnabled() {$/;"	f	class:MPU6050
+getTempFIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getTempFIFOEnabled() {$/;"	f	class:MPU6050
+getTempSensorEnabled	src/MPU6050.cpp	/^bool MPU6050::getTempSensorEnabled() {$/;"	f	class:MPU6050
+getTemperature	src/MPU6050.cpp	/^int16_t MPU6050::getTemperature() {$/;"	f	class:MPU6050
+getWaitForExternalSensorEnabled	src/MPU6050.cpp	/^bool MPU6050::getWaitForExternalSensorEnabled() {$/;"	f	class:MPU6050
+getWakeCycleEnabled	src/MPU6050.cpp	/^bool MPU6050::getWakeCycleEnabled() {$/;"	f	class:MPU6050
+getWakeFrequency	src/MPU6050.cpp	/^uint8_t MPU6050::getWakeFrequency() {$/;"	f	class:MPU6050
+getXAccelOffset	src/MPU6050.cpp	/^int16_t MPU6050::getXAccelOffset() {$/;"	f	class:MPU6050
+getXFineGain	src/MPU6050.cpp	/^int8_t MPU6050::getXFineGain() {$/;"	f	class:MPU6050
+getXGyroFIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getXGyroFIFOEnabled() {$/;"	f	class:MPU6050
+getXGyroOffset	src/MPU6050.cpp	/^int8_t MPU6050::getXGyroOffset() {$/;"	f	class:MPU6050
+getXGyroOffsetUser	src/MPU6050.cpp	/^int16_t MPU6050::getXGyroOffsetUser() {$/;"	f	class:MPU6050
+getXNegMotionDetected	src/MPU6050.cpp	/^bool MPU6050::getXNegMotionDetected() {$/;"	f	class:MPU6050
+getXPosMotionDetected	src/MPU6050.cpp	/^bool MPU6050::getXPosMotionDetected() {$/;"	f	class:MPU6050
+getYAccelOffset	src/MPU6050.cpp	/^int16_t MPU6050::getYAccelOffset() {$/;"	f	class:MPU6050
+getYFineGain	src/MPU6050.cpp	/^int8_t MPU6050::getYFineGain() {$/;"	f	class:MPU6050
+getYGyroFIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getYGyroFIFOEnabled() {$/;"	f	class:MPU6050
+getYGyroOffset	src/MPU6050.cpp	/^int8_t MPU6050::getYGyroOffset() {$/;"	f	class:MPU6050
+getYGyroOffsetUser	src/MPU6050.cpp	/^int16_t MPU6050::getYGyroOffsetUser() {$/;"	f	class:MPU6050
+getYNegMotionDetected	src/MPU6050.cpp	/^bool MPU6050::getYNegMotionDetected() {$/;"	f	class:MPU6050
+getYPosMotionDetected	src/MPU6050.cpp	/^bool MPU6050::getYPosMotionDetected() {$/;"	f	class:MPU6050
+getZAccelOffset	src/MPU6050.cpp	/^int16_t MPU6050::getZAccelOffset() {$/;"	f	class:MPU6050
+getZFineGain	src/MPU6050.cpp	/^int8_t MPU6050::getZFineGain() {$/;"	f	class:MPU6050
+getZGyroFIFOEnabled	src/MPU6050.cpp	/^bool MPU6050::getZGyroFIFOEnabled() {$/;"	f	class:MPU6050
+getZGyroOffset	src/MPU6050.cpp	/^int8_t MPU6050::getZGyroOffset() {$/;"	f	class:MPU6050
+getZGyroOffsetUser	src/MPU6050.cpp	/^int16_t MPU6050::getZGyroOffsetUser() {$/;"	f	class:MPU6050
+getZNegMotionDetected	src/MPU6050.cpp	/^bool MPU6050::getZNegMotionDetected() {$/;"	f	class:MPU6050
+getZPosMotionDetected	src/MPU6050.cpp	/^bool MPU6050::getZPosMotionDetected() {$/;"	f	class:MPU6050
+getZeroMotionDetected	src/MPU6050.cpp	/^bool MPU6050::getZeroMotionDetected() {$/;"	f	class:MPU6050
+getZeroMotionDetectionDuration	src/MPU6050.cpp	/^uint8_t MPU6050::getZeroMotionDetectionDuration() {$/;"	f	class:MPU6050
+getZeroMotionDetectionThreshold	src/MPU6050.cpp	/^uint8_t MPU6050::getZeroMotionDetectionThreshold() {$/;"	f	class:MPU6050
+gpio_data	inc/gpio2_ioctl.h	/^struct gpio_data {$/;"	s
+gpio_direction	inc/gpio2_ioctl.h	/^struct gpio_direction {$/;"	s
+gpio_irq	inc/gpio2_ioctl.h	/^struct gpio_irq {$/;"	s
+gpio_irq_mode	inc/gpio2_ioctl.h	/^enum gpio_irq_mode {$/;"	g
+gpio_mode	inc/gpio2_ioctl.h	/^enum gpio_mode {$/;"	g
+ground_press	main.cpp	/^int32_t ground_press;$/;"	v
+gyroX	inc/HAL_sensor_J.h	/^sensor_t gyroX;$/;"	m	struct:sensor_struct_t
+gyroX	inc/mpu6050_J.h	/^int16_t gyroX, gyroY, gyroZ;$/;"	m	struct:mpu6050_struct_t
+gyroX	test/Extended_Kalman.c	/^		float gyroX;$/;"	m	struct:sensor_struct_t	file:
+gyroY	inc/HAL_sensor_J.h	/^sensor_t gyroY;$/;"	m	struct:sensor_struct_t
+gyroY	inc/mpu6050_J.h	/^int16_t gyroX, gyroY, gyroZ;$/;"	m	struct:mpu6050_struct_t
+gyroY	test/Extended_Kalman.c	/^		float gyroY;$/;"	m	struct:sensor_struct_t	file:
+gyroZ	inc/HAL_sensor_J.h	/^sensor_t gyroZ;$/;"	m	struct:sensor_struct_t
+gyroZ	inc/mpu6050_J.h	/^int16_t gyroX, gyroY, gyroZ;$/;"	m	struct:mpu6050_struct_t
+gyroZ	test/Extended_Kalman.c	/^		float gyroZ;$/;"	m	struct:sensor_struct_t	file:
+i2c_close	src/i2c_J.cpp	/^int i2c_close(){$/;"	f
+i2c_one_Write	src/i2c_J.cpp	/^int i2c_one_Write(int fd_sensor, uint8_t value)$/;"	f
+i2c_open	src/i2c_J.cpp	/^int i2c_open(){$/;"	f
+i2c_read	src/i2c_J.cpp	/^int i2c_read(int dev_addr, unsigned char *data, int size, int offsetAddr)$/;"	f
+i2c_setSlave	src/i2c_J.cpp	/^int i2c_setSlave(int dev_addr)$/;"	f
+i2c_simpleWrite	src/i2c_J.cpp	/^int i2c_simpleWrite(int fd_sensor, uint8_t address, uint8_t value)$/;"	f
+i2c_write	src/i2c_J.cpp	/^int i2c_write(int dev_addr, unsigned char *data, int size, int offsetAddr)$/;"	f
+ijump	inc/ultra_snd.h	/^    uint16_t ijump;     \/\/\/< read on adc 0 (muxed with battery)$/;"	m	struct:adc_data_t
+initialize	src/MPU6050.cpp	/^void MPU6050::initialize() {$/;"	f	class:MPU6050
+insertMatrix	src/Extended_Kalman.cpp	/^int insertMatrix(float_j_t work1[][3], float_j_t result[][3], int row, int col) {$/;"	f
+insertMatrix	test/Extended_Kalman.c	/^int insertMatrix(float_j_t work1[][3], float_j_t result[][3], int row, int col) {$/;"	f
+integralFBx	src/MahonyAHRS.cpp	/^volatile float integralFBx = 0.0f,  integralFBy = 0.0f, integralFBz = 0.0f;	\/\/ integral error terms scaled by Ki$/;"	v
+integralFBy	src/MahonyAHRS.cpp	/^volatile float integralFBx = 0.0f,  integralFBy = 0.0f, integralFBz = 0.0f;	\/\/ integral error terms scaled by Ki$/;"	v
+integralFBz	src/MahonyAHRS.cpp	/^volatile float integralFBx = 0.0f,  integralFBy = 0.0f, integralFBz = 0.0f;	\/\/ integral error terms scaled by Ki$/;"	v
+invSqrt	src/MahonyAHRS.cpp	/^float invSqrt(float x) {$/;"	f
+inverseMatrix	src/Extended_Kalman.cpp	/^int inverseMatrix(float_j_t a[][3], float_j_t out[][3], int row, int col) {$/;"	f
+inverseMatrix	test/Extended_Kalman.c	/^int inverseMatrix(float_j_t a[][3], float_j_t out[][3], int row, int col) {$/;"	f
+kalmanX	src/HAL_sensor_J.cpp	/^Kalman_t kalmanX; \/\/ Create the Kalman instances$/;"	v
+kalmanY	src/HAL_sensor_J.cpp	/^Kalman_t kalmanY;$/;"	v
+kalman_data	inc/Kalman_J.h	/^typedef struct _kalman_data kalman_data;$/;"	t	typeref:struct:_kalman_data
+kalman_function	src/Extended_Kalman.cpp	/^int kalman_function(sensor_struct_t* sen,float_j_t dt){$/;"	f
+kalman_function	test/Extended_Kalman.c	/^int kalman_function(sensor_struct_t* sen,float_j_t dt){$/;"	f
+kalman_init	src/Kalman_J.cpp	/^void kalman_init(kalman_data *data)$/;"	f
+kalman_innovate	src/Kalman_J.cpp	/^void kalman_innovate(kalman_data *data, float z1, float z2)$/;"	f
+key_mask	controller/controller.cpp	/^uint32_t key_mask=0;$/;"	v
+keyboard_thread	controller/controller.cpp	/^void *keyboard_thread(void *data)$/;"	f
+main	controller/controller.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	main.cpp	/^int main(int argc, char* argv[]){$/;"	f
+main	test/Extended_Kalman.c	/^int main() {$/;"	f
+main	test/controller.c	/^int main(void)$/;"	f
+main	test/iir_test.c	/^void main(){$/;"	f
+main_control_code	main.cpp	/^void main_control_code  (int signum){$/;"	f
+main_thread	main.cpp	/^void *main_thread(void* data){$/;"	f
+mask_bit	main.cpp	/^uint32_t mask_bit =0;$/;"	v
+mass	main.cpp	268;"	d	file:
+mode	inc/gpio2_ioctl.h	/^	enum gpio_irq_mode mode;$/;"	m	struct:gpio_irq	typeref:enum:gpio_irq::gpio_irq_mode
+mode	inc/gpio2_ioctl.h	/^	enum gpio_mode mode;$/;"	m	struct:gpio_direction	typeref:enum:gpio_direction::gpio_mode
+mode_flag	controller/controller.cpp	/^bool mode_flag=false;$/;"	v
+motor_init	src/HAL_motor_J.cpp	/^int motor_init(){$/;"	f
+motor_setDuty	src/HAL_motor_J.cpp	/^int motor_setDuty(unsigned int pwm,unsigned int width ){$/;"	f
+motor_t	inc/HAL_pid_J.h	/^typedef float_j_t motor_t;$/;"	t
+move_average	main.cpp	/^uint32_t move_average[MOVEAVE_SIZE]={0,};$/;"	v
+mpu6050_init	src/mpu6050_J.cpp	/^int mpu6050_init()$/;"	f
+mpu6050_read	src/mpu6050_J.cpp	/^int mpu6050_read(mpu6050_struct_t* data )$/;"	f
+mpu6050_struct_t	inc/mpu6050_J.h	/^typedef struct mpu6050_struct_t{$/;"	s
+mpu6050_struct_t	inc/mpu6050_J.h	/^}mpu6050_struct_t;$/;"	t	typeref:struct:mpu6050_struct_t
+ms5607_cnt	src/HAL_sensor_J.cpp	/^sensor_t ms5607_cnt=0;$/;"	v
+ms5607_trig	src/HAL_sensor_J.cpp	/^int ms5607_trig=0;$/;"	v
+ms_pressure	inc/HAL_sensor_J.h	/^int32_t ms_pressure;$/;"	m	struct:sensor_struct_t
+ms_temperature	inc/HAL_sensor_J.h	/^int32_t ms_temperature;$/;"	m	struct:sensor_struct_t
+multiMatrix	src/Extended_Kalman.cpp	/^int multiMatrix(float_j_t work1[][3],float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+multiMatrix	test/Extended_Kalman.c	/^int multiMatrix(float_j_t work1[][3],float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+mutex_press	main.cpp	/^pthread_mutex_t  mutex_press = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+myclock	main.cpp	/^static inline int myclock()$/;"	f	file:
+non_ideal_D_factor	inc/HAL_pid_J.h	/^    motor_t non_ideal_D_factor; $/;"	m	struct:pid_control_t
+norm_a	inc/HAL_sensor_J.h	/^sensor_t norm_a;$/;"	m	struct:sensor_struct_t
+normalize	inc/helper_3dmath.h	/^        void normalize() {$/;"	f	class:Quaternion
+normalize	inc/helper_3dmath.h	/^        void normalize() {$/;"	f	class:VectorFloat
+normalize	inc/helper_3dmath.h	/^        void normalize() {$/;"	f	class:VectorInt16
+offset	inc/ultra_snd.h	/^	uint32_t offset;$/;"	m	struct:timed_buf
+offset	main.cpp	/^float_j_t offset[MAX_SYSTEM];$/;"	v
+offset	src/HAL_pid_J.cpp	736;"	d	file:
+p11	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p12	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p13	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p21	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p22	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p23	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p31	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p32	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+p33	inc/Kalman_J.h	/^    float p11, p12, p13, p21, p22, p23, p31, p32, p33;$/;"	m	struct:_kalman_data
+pgm_read_byte	inc/MPU6050.h	44;"	d
+pid	main.cpp	/^pid_control_t pid[MAX_SYSTEM];$/;"	v
+pid_control	src/HAL_pid_J.cpp	/^motor_t pid_control(pid_control_t* control){$/;"	f
+pid_control_t	inc/HAL_pid_J.h	/^typedef struct pid_control_t{$/;"	s
+pid_control_t	inc/HAL_pid_J.h	/^}pid_control_t;$/;"	t	typeref:struct:pid_control_t
+pid_feedforward	src/HAL_pid_J.cpp	/^uint32_t pid_feedforward(int x){$/;"	f
+pid_init	src/HAL_pid_J.cpp	/^void pid_init(pid_control_t *p){$/;"	f
+pid_setDfactor	src/HAL_pid_J.cpp	/^void pid_setDfactor(pid_control_t *p, motor_t val){$/;"	f
+pid_setErr	src/HAL_pid_J.cpp	/^void pid_setErr(pid_control_t *p, sensor_t val){$/;"	f
+pid_setErrD	src/HAL_pid_J.cpp	/^void pid_setErrD(pid_control_t *p, sensor_t val,sensor_t dt){$/;"	f
+pid_setErrI	src/HAL_pid_J.cpp	/^void pid_setErrI(pid_control_t *p,motor_t val,  sensor_t dt){$/;"	f
+pid_setErr_prev	src/HAL_pid_J.cpp	/^void pid_setErr_prev(pid_control_t *p, motor_t  val){$/;"	f
+pin	inc/gpio2_ioctl.h	/^	int pin;$/;"	m	struct:gpio_data
+pin	inc/gpio2_ioctl.h	/^	int pin;$/;"	m	struct:gpio_direction
+pin	inc/gpio2_ioctl.h	/^	int pin;$/;"	m	struct:gpio_irq
+pitch	inc/HAL_sensor_J.h	/^sensor_t pitch;$/;"	m	struct:sensor_struct_t
+pitch_data	src/HAL_sensor_J.cpp	/^kalman_data pitch_data;$/;"	v
+press_err	main.cpp	/^float_j_t press_err=0;$/;"	v
+press_thread	main.cpp	/^void *press_thread(void* data){$/;"	f
+prev_mode_flag	controller/controller.cpp	/^bool prev_mode_flag;$/;"	v
+printMatrix	src/Extended_Kalman.cpp	/^int printMatrix(float_j_t work1[][3], int row, int col) {$/;"	f
+printMatrix	test/Extended_Kalman.c	/^int printMatrix(float_j_t work1[][3], int row, int col) {$/;"	f
+print_table	src/HAL_pid_J.cpp	/^void print_table(pid_control_t* p){$/;"	f
+print_thread	main.cpp	/^void *print_thread(void* data){$/;"	f
+prog_uchar	inc/MPU6050_6Axis_MotionApps20.h	91;"	d
+pulse_mode	inc/ultra_snd.h	/^enum pulse_mode {$/;"	g
+pwm_SetWidth	src/pwm_J.cpp	/^int pwm_SetWidth( unsigned int pwm,unsigned int width ){$/;"	f
+pwm_delos_quadruplet	inc/pwm_ioctl.h	/^typedef struct { unsigned int val[4]; } __attribute__ ((packed)) pwm_delos_quadruplet;$/;"	t	typeref:struct:__anon5
+pwm_init	src/pwm_J.cpp	/^int pwm_init(){$/;"	f
+pwm_open	src/pwm_J.cpp	/^int pwm_open(){$/;"	f
+pwm_powerOff	src/pwm_J.cpp	/^int pwm_powerOff(){$/;"	f
+pwm_powerOn	src/pwm_J.cpp	/^int pwm_powerOn(){$/;"	f
+q0	src/MahonyAHRS.cpp	/^volatile float q0 = 1.0f, q1 = 0.0f, q2 = 0.0f, q3 = 0.0f;					\/\/ quaternion of sensor frame relative to auxiliary frame$/;"	v
+q1	src/MahonyAHRS.cpp	/^volatile float q0 = 1.0f, q1 = 0.0f, q2 = 0.0f, q3 = 0.0f;					\/\/ quaternion of sensor frame relative to auxiliary frame$/;"	v
+q2	src/MahonyAHRS.cpp	/^volatile float q0 = 1.0f, q1 = 0.0f, q2 = 0.0f, q3 = 0.0f;					\/\/ quaternion of sensor frame relative to auxiliary frame$/;"	v
+q3	src/MahonyAHRS.cpp	/^volatile float q0 = 1.0f, q1 = 0.0f, q2 = 0.0f, q3 = 0.0f;					\/\/ quaternion of sensor frame relative to auxiliary frame$/;"	v
+rate	inc/KalmanJ.h	/^    float rate; \/\/ Unbiased rate calculated from the rate and the calculated bias - you have to call getAngle to update the rate$/;"	m	struct:Kalman_t
+readBit	src/I2Cdev.cpp	/^int8_t I2Cdev::readBit(uint8_t devAddr, uint8_t regAddr, uint8_t bitNum, uint8_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+readBitW	src/I2Cdev.cpp	/^int8_t I2Cdev::readBitW(uint8_t devAddr, uint8_t regAddr, uint8_t bitNum, uint16_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+readBits	src/I2Cdev.cpp	/^int8_t I2Cdev::readBits(uint8_t devAddr, uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+readBitsW	src/I2Cdev.cpp	/^int8_t I2Cdev::readBitsW(uint8_t devAddr, uint8_t regAddr, uint8_t bitStart, uint8_t length, uint16_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+readByte	src/I2Cdev.cpp	/^int8_t I2Cdev::readByte(uint8_t devAddr, uint8_t regAddr, uint8_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+readBytes	src/I2Cdev.cpp	/^int8_t I2Cdev::readBytes(uint8_t dev_addr, uint8_t regAddr, uint8_t length, uint8_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+readMemoryBlock	src/MPU6050.cpp	/^void MPU6050::readMemoryBlock(uint8_t *data, uint16_t dataSize, uint8_t bank, uint8_t address) {$/;"	f	class:MPU6050
+readMemoryByte	src/MPU6050.cpp	/^uint8_t MPU6050::readMemoryByte() {$/;"	f	class:MPU6050
+readTimeout	inc/I2Cdev.h	/^        static uint16_t readTimeout;$/;"	m	class:I2Cdev
+readTimeout	src/I2Cdev.cpp	/^uint16_t I2Cdev::readTimeout = 0;$/;"	m	class:I2Cdev	file:
+readWord	src/I2Cdev.cpp	/^int8_t I2Cdev::readWord(uint8_t devAddr, uint8_t regAddr, uint16_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+readWords	src/I2Cdev.cpp	/^int8_t I2Cdev::readWords(uint8_t devAddr, uint8_t regAddr, uint8_t length, uint16_t *data, uint16_t timeout) {$/;"	f	class:I2Cdev
+reset	src/MPU6050.cpp	/^void MPU6050::reset() {$/;"	f	class:MPU6050
+resetAccelerometerPath	src/MPU6050.cpp	/^void MPU6050::resetAccelerometerPath() {$/;"	f	class:MPU6050
+resetDMP	src/MPU6050.cpp	/^void MPU6050::resetDMP() {$/;"	f	class:MPU6050
+resetFIFO	src/MPU6050.cpp	/^void MPU6050::resetFIFO() {$/;"	f	class:MPU6050
+resetGyroscopePath	src/MPU6050.cpp	/^void MPU6050::resetGyroscopePath() {$/;"	f	class:MPU6050
+resetI2CMaster	src/MPU6050.cpp	/^void MPU6050::resetI2CMaster() {$/;"	f	class:MPU6050
+resetSensors	src/MPU6050.cpp	/^void MPU6050::resetSensors() {$/;"	f	class:MPU6050
+resetTemperaturePath	src/MPU6050.cpp	/^void MPU6050::resetTemperaturePath() {$/;"	f	class:MPU6050
+roll	inc/HAL_sensor_J.h	/^sensor_t roll;$/;"	m	struct:sensor_struct_t
+roll_data	src/HAL_sensor_J.cpp	/^kalman_data roll_data;$/;"	v
+rotate	inc/helper_3dmath.h	/^        void rotate(Quaternion *q) {$/;"	f	class:VectorFloat
+rotate	inc/helper_3dmath.h	/^        void rotate(Quaternion *q) {$/;"	f	class:VectorInt16
+sampleFreq	src/MahonyAHRS.cpp	23;"	d	file:
+sensor	main.cpp	/^sensor_struct_t sensor;$/;"	v
+sensor_alpha	main.cpp	/^static float_j_t sensor_alpha=0;$/;"	v	file:
+sensor_filtering	src/HAL_sensor_J.cpp	/^int sensor_filtering(filter_t fil, sensor_struct_t* sensor, sensor_t dt){$/;"	f
+sensor_init	src/HAL_sensor_J.cpp	/^int sensor_init(sensor_struct_t* sensor){$/;"	f
+sensor_read	src/HAL_sensor_J.cpp	/^int sensor_read(sensor_struct_t* sensor,sensor_t dt){$/;"	f
+sensor_struct_t	inc/HAL_sensor_J.h	/^typedef struct sensor_struct_t{$/;"	s
+sensor_struct_t	inc/HAL_sensor_J.h	/^}sensor_struct_t;$/;"	t	typeref:struct:sensor_struct_t
+sensor_struct_t	test/Extended_Kalman.c	/^typedef struct sensor_struct_t{$/;"	s	file:
+sensor_struct_t	test/Extended_Kalman.c	/^}sensor_struct_t;$/;"	t	typeref:struct:sensor_struct_t	file:
+sensor_t	inc/HAL_sensor_J.h	/^typedef float_j_t sensor_t;$/;"	t
+sensor_t	inc/mpu6050_J.h	/^typedef float sensor_t;$/;"	t
+set	main.cpp	/^sigset_t set;$/;"	v
+setAccelFIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setAccelFIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setAccelXSelfTest	src/MPU6050.cpp	/^void MPU6050::setAccelXSelfTest(bool enabled) {$/;"	f	class:MPU6050
+setAccelYSelfTest	src/MPU6050.cpp	/^void MPU6050::setAccelYSelfTest(bool enabled) {$/;"	f	class:MPU6050
+setAccelZSelfTest	src/MPU6050.cpp	/^void MPU6050::setAccelZSelfTest(bool enabled) {$/;"	f	class:MPU6050
+setAccelerometerPowerOnDelay	src/MPU6050.cpp	/^void MPU6050::setAccelerometerPowerOnDelay(uint8_t delay) {$/;"	f	class:MPU6050
+setAuxVDDIOLevel	src/MPU6050.cpp	/^void MPU6050::setAuxVDDIOLevel(uint8_t level) {$/;"	f	class:MPU6050
+setClockOutputEnabled	src/MPU6050.cpp	/^void MPU6050::setClockOutputEnabled(bool enabled) {$/;"	f	class:MPU6050
+setClockSource	src/MPU6050.cpp	/^void MPU6050::setClockSource(uint8_t source) {$/;"	f	class:MPU6050
+setDHPFMode	src/MPU6050.cpp	/^void MPU6050::setDHPFMode(uint8_t bandwidth) {$/;"	f	class:MPU6050
+setDLPFMode	src/MPU6050.cpp	/^void MPU6050::setDLPFMode(uint8_t mode) {$/;"	f	class:MPU6050
+setDMPConfig1	src/MPU6050.cpp	/^void MPU6050::setDMPConfig1(uint8_t config) {$/;"	f	class:MPU6050
+setDMPConfig2	src/MPU6050.cpp	/^void MPU6050::setDMPConfig2(uint8_t config) {$/;"	f	class:MPU6050
+setDMPEnabled	src/MPU6050.cpp	/^void MPU6050::setDMPEnabled(bool enabled) {$/;"	f	class:MPU6050
+setDeviceID	src/MPU6050.cpp	/^void MPU6050::setDeviceID(uint8_t id) {$/;"	f	class:MPU6050
+setExternalFrameSync	src/MPU6050.cpp	/^void MPU6050::setExternalFrameSync(uint8_t sync) {$/;"	f	class:MPU6050
+setExternalShadowDelayEnabled	src/MPU6050.cpp	/^void MPU6050::setExternalShadowDelayEnabled(bool enabled) {$/;"	f	class:MPU6050
+setFIFOByte	src/MPU6050.cpp	/^void MPU6050::setFIFOByte(uint8_t data) {$/;"	f	class:MPU6050
+setFIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setFIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setFSyncInterruptEnabled	src/MPU6050.cpp	/^void MPU6050::setFSyncInterruptEnabled(bool enabled) {$/;"	f	class:MPU6050
+setFSyncInterruptLevel	src/MPU6050.cpp	/^void MPU6050::setFSyncInterruptLevel(bool level) {$/;"	f	class:MPU6050
+setFreefallDetectionCounterDecrement	src/MPU6050.cpp	/^void MPU6050::setFreefallDetectionCounterDecrement(uint8_t decrement) {$/;"	f	class:MPU6050
+setFreefallDetectionDuration	src/MPU6050.cpp	/^void MPU6050::setFreefallDetectionDuration(uint8_t duration) {$/;"	f	class:MPU6050
+setFreefallDetectionThreshold	src/MPU6050.cpp	/^void MPU6050::setFreefallDetectionThreshold(uint8_t threshold) {$/;"	f	class:MPU6050
+setFullScaleAccelRange	src/MPU6050.cpp	/^void MPU6050::setFullScaleAccelRange(uint8_t range) {$/;"	f	class:MPU6050
+setFullScaleGyroRange	src/MPU6050.cpp	/^void MPU6050::setFullScaleGyroRange(uint8_t range) {$/;"	f	class:MPU6050
+setI2CBypassEnabled	src/MPU6050.cpp	/^void MPU6050::setI2CBypassEnabled(bool enabled) {$/;"	f	class:MPU6050
+setI2CMasterModeEnabled	src/MPU6050.cpp	/^void MPU6050::setI2CMasterModeEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntDMPEnabled	src/MPU6050.cpp	/^void MPU6050::setIntDMPEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntDataReadyEnabled	src/MPU6050.cpp	/^void MPU6050::setIntDataReadyEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntEnabled	src/MPU6050.cpp	/^void MPU6050::setIntEnabled(uint8_t enabled) {$/;"	f	class:MPU6050
+setIntFIFOBufferOverflowEnabled	src/MPU6050.cpp	/^void MPU6050::setIntFIFOBufferOverflowEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntFreefallEnabled	src/MPU6050.cpp	/^void MPU6050::setIntFreefallEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntI2CMasterEnabled	src/MPU6050.cpp	/^void MPU6050::setIntI2CMasterEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntMotionEnabled	src/MPU6050.cpp	/^void MPU6050::setIntMotionEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntPLLReadyEnabled	src/MPU6050.cpp	/^void MPU6050::setIntPLLReadyEnabled(bool enabled) {$/;"	f	class:MPU6050
+setIntZeroMotionEnabled	src/MPU6050.cpp	/^void MPU6050::setIntZeroMotionEnabled(bool enabled) {$/;"	f	class:MPU6050
+setInterruptDrive	src/MPU6050.cpp	/^void MPU6050::setInterruptDrive(bool drive) {$/;"	f	class:MPU6050
+setInterruptLatch	src/MPU6050.cpp	/^void MPU6050::setInterruptLatch(bool latch) {$/;"	f	class:MPU6050
+setInterruptLatchClear	src/MPU6050.cpp	/^void MPU6050::setInterruptLatchClear(bool clear) {$/;"	f	class:MPU6050
+setInterruptMode	src/MPU6050.cpp	/^void MPU6050::setInterruptMode(bool mode) {$/;"	f	class:MPU6050
+setMasterClockSpeed	src/MPU6050.cpp	/^void MPU6050::setMasterClockSpeed(uint8_t speed) {$/;"	f	class:MPU6050
+setMemoryBank	src/MPU6050.cpp	/^void MPU6050::setMemoryBank(uint8_t bank, bool prefetchEnabled, bool userBank) {$/;"	f	class:MPU6050
+setMemoryStartAddress	src/MPU6050.cpp	/^void MPU6050::setMemoryStartAddress(uint8_t address) {$/;"	f	class:MPU6050
+setMotionDetectionCounterDecrement	src/MPU6050.cpp	/^void MPU6050::setMotionDetectionCounterDecrement(uint8_t decrement) {$/;"	f	class:MPU6050
+setMotionDetectionDuration	src/MPU6050.cpp	/^void MPU6050::setMotionDetectionDuration(uint8_t duration) {$/;"	f	class:MPU6050
+setMotionDetectionThreshold	src/MPU6050.cpp	/^void MPU6050::setMotionDetectionThreshold(uint8_t threshold) {$/;"	f	class:MPU6050
+setMultiMasterEnabled	src/MPU6050.cpp	/^void MPU6050::setMultiMasterEnabled(bool enabled) {$/;"	f	class:MPU6050
+setOTPBankValid	src/MPU6050.cpp	/^void MPU6050::setOTPBankValid(bool enabled) {$/;"	f	class:MPU6050
+setRate	src/MPU6050.cpp	/^void MPU6050::setRate(uint8_t rate) {$/;"	f	class:MPU6050
+setSlave0FIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setSlave0FIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setSlave1FIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setSlave1FIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setSlave2FIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setSlave2FIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setSlave3FIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setSlave3FIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setSlave4Address	src/MPU6050.cpp	/^void MPU6050::setSlave4Address(uint8_t address) {$/;"	f	class:MPU6050
+setSlave4Enabled	src/MPU6050.cpp	/^void MPU6050::setSlave4Enabled(bool enabled) {$/;"	f	class:MPU6050
+setSlave4InterruptEnabled	src/MPU6050.cpp	/^void MPU6050::setSlave4InterruptEnabled(bool enabled) {$/;"	f	class:MPU6050
+setSlave4MasterDelay	src/MPU6050.cpp	/^void MPU6050::setSlave4MasterDelay(uint8_t delay) {$/;"	f	class:MPU6050
+setSlave4OutputByte	src/MPU6050.cpp	/^void MPU6050::setSlave4OutputByte(uint8_t data) {$/;"	f	class:MPU6050
+setSlave4Register	src/MPU6050.cpp	/^void MPU6050::setSlave4Register(uint8_t reg) {$/;"	f	class:MPU6050
+setSlave4WriteMode	src/MPU6050.cpp	/^void MPU6050::setSlave4WriteMode(bool mode) {$/;"	f	class:MPU6050
+setSlaveAddress	src/MPU6050.cpp	/^void MPU6050::setSlaveAddress(uint8_t num, uint8_t address) {$/;"	f	class:MPU6050
+setSlaveDataLength	src/MPU6050.cpp	/^void MPU6050::setSlaveDataLength(uint8_t num, uint8_t length) {$/;"	f	class:MPU6050
+setSlaveDelayEnabled	src/MPU6050.cpp	/^void MPU6050::setSlaveDelayEnabled(uint8_t num, bool enabled) {$/;"	f	class:MPU6050
+setSlaveEnabled	src/MPU6050.cpp	/^void MPU6050::setSlaveEnabled(uint8_t num, bool enabled) {$/;"	f	class:MPU6050
+setSlaveOutputByte	src/MPU6050.cpp	/^void MPU6050::setSlaveOutputByte(uint8_t num, uint8_t data) {$/;"	f	class:MPU6050
+setSlaveReadWriteTransitionEnabled	src/MPU6050.cpp	/^void MPU6050::setSlaveReadWriteTransitionEnabled(bool enabled) {$/;"	f	class:MPU6050
+setSlaveRegister	src/MPU6050.cpp	/^void MPU6050::setSlaveRegister(uint8_t num, uint8_t reg) {$/;"	f	class:MPU6050
+setSlaveWordByteSwap	src/MPU6050.cpp	/^void MPU6050::setSlaveWordByteSwap(uint8_t num, bool enabled) {$/;"	f	class:MPU6050
+setSlaveWordGroupOffset	src/MPU6050.cpp	/^void MPU6050::setSlaveWordGroupOffset(uint8_t num, bool enabled) {$/;"	f	class:MPU6050
+setSlaveWriteMode	src/MPU6050.cpp	/^void MPU6050::setSlaveWriteMode(uint8_t num, bool mode) {$/;"	f	class:MPU6050
+setSleepEnabled	src/MPU6050.cpp	/^void MPU6050::setSleepEnabled(bool enabled) {$/;"	f	class:MPU6050
+setStandbyXAccelEnabled	src/MPU6050.cpp	/^void MPU6050::setStandbyXAccelEnabled(bool enabled) {$/;"	f	class:MPU6050
+setStandbyXGyroEnabled	src/MPU6050.cpp	/^void MPU6050::setStandbyXGyroEnabled(bool enabled) {$/;"	f	class:MPU6050
+setStandbyYAccelEnabled	src/MPU6050.cpp	/^void MPU6050::setStandbyYAccelEnabled(bool enabled) {$/;"	f	class:MPU6050
+setStandbyYGyroEnabled	src/MPU6050.cpp	/^void MPU6050::setStandbyYGyroEnabled(bool enabled) {$/;"	f	class:MPU6050
+setStandbyZAccelEnabled	src/MPU6050.cpp	/^void MPU6050::setStandbyZAccelEnabled(bool enabled) {$/;"	f	class:MPU6050
+setStandbyZGyroEnabled	src/MPU6050.cpp	/^void MPU6050::setStandbyZGyroEnabled(bool enabled) {$/;"	f	class:MPU6050
+setTempFIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setTempFIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setTempSensorEnabled	src/MPU6050.cpp	/^void MPU6050::setTempSensorEnabled(bool enabled) {$/;"	f	class:MPU6050
+setWaitForExternalSensorEnabled	src/MPU6050.cpp	/^void MPU6050::setWaitForExternalSensorEnabled(bool enabled) {$/;"	f	class:MPU6050
+setWakeCycleEnabled	src/MPU6050.cpp	/^void MPU6050::setWakeCycleEnabled(bool enabled) {$/;"	f	class:MPU6050
+setWakeFrequency	src/MPU6050.cpp	/^void MPU6050::setWakeFrequency(uint8_t frequency) {$/;"	f	class:MPU6050
+setXAccelOffset	src/MPU6050.cpp	/^void MPU6050::setXAccelOffset(int16_t offset) {$/;"	f	class:MPU6050
+setXFineGain	src/MPU6050.cpp	/^void MPU6050::setXFineGain(int8_t gain) {$/;"	f	class:MPU6050
+setXGyroFIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setXGyroFIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setXGyroOffset	src/MPU6050.cpp	/^void MPU6050::setXGyroOffset(int8_t offset) {$/;"	f	class:MPU6050
+setXGyroOffsetUser	src/MPU6050.cpp	/^void MPU6050::setXGyroOffsetUser(int16_t offset) {$/;"	f	class:MPU6050
+setYAccelOffset	src/MPU6050.cpp	/^void MPU6050::setYAccelOffset(int16_t offset) {$/;"	f	class:MPU6050
+setYFineGain	src/MPU6050.cpp	/^void MPU6050::setYFineGain(int8_t gain) {$/;"	f	class:MPU6050
+setYGyroFIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setYGyroFIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setYGyroOffset	src/MPU6050.cpp	/^void MPU6050::setYGyroOffset(int8_t offset) {$/;"	f	class:MPU6050
+setYGyroOffsetUser	src/MPU6050.cpp	/^void MPU6050::setYGyroOffsetUser(int16_t offset) {$/;"	f	class:MPU6050
+setZAccelOffset	src/MPU6050.cpp	/^void MPU6050::setZAccelOffset(int16_t offset) {$/;"	f	class:MPU6050
+setZFineGain	src/MPU6050.cpp	/^void MPU6050::setZFineGain(int8_t gain) {$/;"	f	class:MPU6050
+setZGyroFIFOEnabled	src/MPU6050.cpp	/^void MPU6050::setZGyroFIFOEnabled(bool enabled) {$/;"	f	class:MPU6050
+setZGyroOffset	src/MPU6050.cpp	/^void MPU6050::setZGyroOffset(int8_t offset) {$/;"	f	class:MPU6050
+setZGyroOffsetUser	src/MPU6050.cpp	/^void MPU6050::setZGyroOffsetUser(int16_t offset) {$/;"	f	class:MPU6050
+setZeroMotionDetectionDuration	src/MPU6050.cpp	/^void MPU6050::setZeroMotionDetectionDuration(uint8_t duration) {$/;"	f	class:MPU6050
+setZeroMotionDetectionThreshold	src/MPU6050.cpp	/^void MPU6050::setZeroMotionDetectionThreshold(uint8_t threshold) {$/;"	f	class:MPU6050
+setecho	controller/controller.cpp	/^int setecho(int fd, int onoff)$/;"	f
+setecho	main.cpp	/^int setecho(int fd, int onoff)$/;"	f
+similarMatrix	src/Extended_Kalman.cpp	/^int similarMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+similarMatrix	test/Extended_Kalman.c	/^int similarMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+simple_kal	simple_kal.m	/^function out = simple_kal(in,first)$/;"	f
+sleep_timer	main.cpp	/^int  sleep_timer(int sec,int nsec){$/;"	f
+socket_read_thread	controller/controller.cpp	/^void *socket_read_thread(void *data)$/;"	f
+socket_write_thread	controller/controller.cpp	/^void *socket_write_thread(void *data)$/;"	f
+spi_readl	inc/ultra_snd.h	52;"	d
+spi_writel	inc/ultra_snd.h	49;"	d
+start_point	main.cpp	/^struct timeval start_point, end_point;$/;"	v	typeref:struct:timeval
+state	inc/HAL_pid_J.h	/^    motor_t state;$/;"	m	struct:pid_control_t
+subMatrix	src/Extended_Kalman.cpp	/^int subMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+subMatrix	test/Extended_Kalman.c	/^int subMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+sumMatrix	src/Extended_Kalman.cpp	/^int sumMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+sumMatrix	test/Extended_Kalman.c	/^int sumMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+switchSPIEnabled	src/MPU6050.cpp	/^void MPU6050::switchSPIEnabled(bool enabled) {$/;"	f	class:MPU6050
+system_t	inc/HAL_pid_J.h	/^}system_t;$/;"	t	typeref:enum:__anon7
+tar_pit	main.cpp	/^float_j_t tar_pit=0,tar_rol=0;$/;"	v
+tar_rol	main.cpp	/^float_j_t tar_pit=0,tar_rol=0;$/;"	v
+target	main.cpp	/^float_j_t target[MAX_SYSTEM];$/;"	v
+temper	inc/mpu6050_J.h	/^uint16_t temper;$/;"	m	struct:mpu6050_struct_t
+testConnection	src/MPU6050.cpp	/^bool MPU6050::testConnection() {$/;"	f	class:MPU6050
+thrott	main.cpp	/^int thrott;$/;"	v
+throttle	main.cpp	/^static float_j_t throttle=1000;$/;"	v	file:
+timed_buf	inc/ultra_snd.h	/^struct timed_buf{$/;"	s
+timer1	main.cpp	/^timer_t timer1;$/;"	v
+transMatrix	src/Extended_Kalman.cpp	/^int transMatrix( float_j_t work1[][3], float_j_t work2[][3], int row, int col) {$/;"	f
+transMatrix	test/Extended_Kalman.c	/^int transMatrix( float_j_t work1[][3], float_j_t work2[][3], int row, int col) {$/;"	f
+twoKi	src/MahonyAHRS.cpp	/^volatile float twoKi = twoKiDef;											\/\/ 2 * integral gain (Ki)$/;"	v
+twoKiDef	src/MahonyAHRS.cpp	25;"	d	file:
+twoKp	src/MahonyAHRS.cpp	/^volatile float twoKp = twoKpDef;											\/\/ 2 * proportional gain (Kp)$/;"	v
+twoKpDef	src/MahonyAHRS.cpp	24;"	d	file:
+val	inc/pwm_ioctl.h	/^typedef struct { unsigned int val[4]; } __attribute__ ((packed)) pwm_delos_quadruplet;$/;"	m	struct:__anon5
+value	inc/gpio2_ioctl.h	/^	int value;$/;"	m	struct:gpio_data
+w	inc/helper_3dmath.h	/^        float w;$/;"	m	class:Quaternion
+wheel50hz	inc/ultra_snd.h	/^    uint16_t wheel50hz; \/\/\/< read on adc 2$/;"	m	struct:adc_data_t
+writeBit	src/I2Cdev.cpp	/^bool I2Cdev::writeBit(uint8_t devAddr, uint8_t regAddr, uint8_t bitNum, uint8_t data) {$/;"	f	class:I2Cdev
+writeBitW	src/I2Cdev.cpp	/^bool I2Cdev::writeBitW(uint8_t devAddr, uint8_t regAddr, uint8_t bitNum, uint16_t data) {$/;"	f	class:I2Cdev
+writeBits	src/I2Cdev.cpp	/^bool I2Cdev::writeBits(uint8_t devAddr, uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t data) {$/;"	f	class:I2Cdev
+writeBitsW	src/I2Cdev.cpp	/^bool I2Cdev::writeBitsW(uint8_t devAddr, uint8_t regAddr, uint8_t bitStart, uint8_t length, uint16_t data) {$/;"	f	class:I2Cdev
+writeByte	src/I2Cdev.cpp	/^bool I2Cdev::writeByte(uint8_t devAddr, uint8_t regAddr, uint8_t data) {$/;"	f	class:I2Cdev
+writeBytes	src/I2Cdev.cpp	/^bool I2Cdev::writeBytes(uint8_t dev_addr, uint8_t offsetAddr, uint8_t size, uint8_t* data) {$/;"	f	class:I2Cdev
+writeDMPConfigurationSet	src/MPU6050.cpp	/^bool MPU6050::writeDMPConfigurationSet(const uint8_t *data, uint16_t dataSize, bool useProgMem) {$/;"	f	class:MPU6050
+writeMemoryBlock	src/MPU6050.cpp	/^bool MPU6050::writeMemoryBlock(const uint8_t *data, uint16_t dataSize, uint8_t bank, uint8_t address, bool verify, bool useProgMem) {$/;"	f	class:MPU6050
+writeMemoryByte	src/MPU6050.cpp	/^void MPU6050::writeMemoryByte(uint8_t data) {$/;"	f	class:MPU6050
+writeProgDMPConfigurationSet	src/MPU6050.cpp	/^bool MPU6050::writeProgDMPConfigurationSet(const uint8_t *data, uint16_t dataSize) {$/;"	f	class:MPU6050
+writeProgMemoryBlock	src/MPU6050.cpp	/^bool MPU6050::writeProgMemoryBlock(const uint8_t *data, uint16_t dataSize, uint8_t bank, uint8_t address, bool verify) {$/;"	f	class:MPU6050
+writeWord	src/I2Cdev.cpp	/^bool I2Cdev::writeWord(uint8_t devAddr, uint8_t regAddr, uint16_t data) {$/;"	f	class:I2Cdev
+writeWords	src/I2Cdev.cpp	/^bool I2Cdev::writeWords(uint8_t dev_addr, uint8_t offsetAddr, uint8_t size, uint16_t* data) {$/;"	f	class:I2Cdev
+x	inc/helper_3dmath.h	/^        float x;$/;"	m	class:Quaternion
+x	inc/helper_3dmath.h	/^        float x;$/;"	m	class:VectorFloat
+x	inc/helper_3dmath.h	/^        int16_t x;$/;"	m	class:VectorInt16
+x1	inc/Kalman_J.h	/^    float x1, x2, x3;$/;"	m	struct:_kalman_data
+x1_k	inc/HAL_pid_J.h	/^    motor_t x1_k;$/;"	m	struct:pid_control_t
+x2	inc/Kalman_J.h	/^    float x1, x2, x3;$/;"	m	struct:_kalman_data
+x2_k	inc/HAL_pid_J.h	/^    motor_t x2_k;$/;"	m	struct:pid_control_t
+x3	inc/Kalman_J.h	/^    float x1, x2, x3;$/;"	m	struct:_kalman_data
+y	inc/helper_3dmath.h	/^        float y;$/;"	m	class:Quaternion
+y	inc/helper_3dmath.h	/^        float y;$/;"	m	class:VectorFloat
+y	inc/helper_3dmath.h	/^        int16_t y;$/;"	m	class:VectorInt16
+yaw	inc/HAL_sensor_J.h	/^sensor_t yaw;$/;"	m	struct:sensor_struct_t
+z	inc/helper_3dmath.h	/^        float z;$/;"	m	class:Quaternion
+z	inc/helper_3dmath.h	/^        float z;$/;"	m	class:VectorFloat
+z	inc/helper_3dmath.h	/^        int16_t z;$/;"	m	class:VectorInt16
+zeroMatrix	src/Extended_Kalman.cpp	/^int zeroMatrix(float_j_t work1[][3], int row, int col) {$/;"	f
+zeroMatrix	test/Extended_Kalman.c	/^int zeroMatrix(float_j_t work1[][3], int row, int col) {$/;"	f

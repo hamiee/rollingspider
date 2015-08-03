@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <errno.h>
+#include <ctype.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <getopt.h>
+#include <signal.h>
+#include <sys/param.h>
+#include <sys/ioctl.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/poll.h>
+#include <stdint.h>
+#include "lpf_J.h"
+#include "HAL_sensor_J.h"
+
+sensor_t w[MWSPT_NSEC][3];
+
+void lpf_init(){
+	int i;
+	for(i=0;i<MWSPT_NSEC;i++){
+		w[i][0]=0;
+		w[i][1]=0;
+		w[i][2]=0;
+	}
+}
+
+sensor_t calc(int sec , sensor_t input ){
+	int i;
+	for(i=MWSPT_NSEC-1; i>0 ;i--){
+		w[i][sec]=w[i-1][sec];
+		printf("w[%d][%d] = %f \n",i,sec,w[i][sec]);
+	}
+	sensor_t ww = input*DEN[0][sec];
+	for(i=1;i<MWSPT_NSEC;i++){
+		ww -= DEN[i][sec]*w[i][sec];
+	}
+	w[0][sec] = ww;
+	//w[0][sec] = input*DEN[0][sec] -DEN[1][sec]*w[1][sec] -DEN[2][sec]*w[2][sec];	
+printf("w %d \n",ww);
+	sensor_t out=0;
+	for(i=0;i<MWSPT_NSEC;i++){
+		out += NUM[i][sec]*w[i][sec];
+	}
+
+	//	printf("out %f \n",out);
+	return out;
+	//NUM[0][0]*w[0][0] + NUM[1][0]*w[1][0] + ...;
+
+}
+
+sensor_t lpf_calculate(sensor_t x){
+printf("x %f \n",x);
+		sensor_t out0 = calc(0,x);
+		printf("out0 %f\n",out0);
+	sensor_t out1 = calc(1,out0);
+		printf("out1 %f\n",out1);
+	sensor_t out2 = calc(2,out1);
+		printf("out2 %f\n",out2);
+//	sensor_t out = calc(2,calc(1,calc(0,x)));
+	return out2;
+}
+
+

@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Def_pi	Extended_Kalman.c	215;"	d	file:
+Def_psi	Extended_Kalman.c	217;"	d	file:
+Def_theta	Extended_Kalman.c	216;"	d	file:
+Def_x	Extended_Kalman.c	212;"	d	file:
+Def_y	Extended_Kalman.c	213;"	d	file:
+Def_z	Extended_Kalman.c	214;"	d	file:
+Gravity	Extended_Kalman.c	12;"	d	file:
+GravityToEuler	Extended_Kalman.c	/^int GravityToEuler(float_j_t a_x, float_j_t a_y, float_j_t a_z, float_j_t z_k[][3])$/;"	f
+accX	Extended_Kalman.c	/^		float accX;$/;"	m	struct:sensor_struct_t	file:
+accY	Extended_Kalman.c	/^		float accY;$/;"	m	struct:sensor_struct_t	file:
+accZ	Extended_Kalman.c	/^		float accZ;$/;"	m	struct:sensor_struct_t	file:
+float_j_t	Extended_Kalman.c	/^typedef float float_j_t;$/;"	t	file:
+gyroX	Extended_Kalman.c	/^		float gyroX;$/;"	m	struct:sensor_struct_t	file:
+gyroY	Extended_Kalman.c	/^		float gyroY;$/;"	m	struct:sensor_struct_t	file:
+gyroZ	Extended_Kalman.c	/^		float gyroZ;$/;"	m	struct:sensor_struct_t	file:
+insertMatrix	Extended_Kalman.c	/^int insertMatrix(float_j_t work1[][3], float_j_t result[][3], int row, int col) {$/;"	f
+inverseMatrix	Extended_Kalman.c	/^int inverseMatrix(float_j_t a[][3], float_j_t out[][3], int row, int col) {$/;"	f
+kalman_function	Extended_Kalman.c	/^int kalman_function(sensor_struct_t* sen,float_j_t dt){$/;"	f
+main	Extended_Kalman.c	/^int main() {$/;"	f
+multiMatrix	Extended_Kalman.c	/^int multiMatrix(float_j_t work1[][3],float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+printMatrix	Extended_Kalman.c	/^int printMatrix(float_j_t work1[][3], int row, int col) {$/;"	f
+sensor_struct_t	Extended_Kalman.c	/^typedef struct sensor_struct_t{$/;"	s	file:
+sensor_struct_t	Extended_Kalman.c	/^}sensor_struct_t;$/;"	t	typeref:struct:sensor_struct_t	file:
+similarMatrix	Extended_Kalman.c	/^int similarMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+subMatrix	Extended_Kalman.c	/^int subMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+sumMatrix	Extended_Kalman.c	/^int sumMatrix(float_j_t work1[][3], float_j_t work2[][3], float_j_t result[][3], int row, int col) {$/;"	f
+transMatrix	Extended_Kalman.c	/^int transMatrix( float_j_t work1[][3], float_j_t work2[][3], int row, int col) {$/;"	f
+zeroMatrix	Extended_Kalman.c	/^int zeroMatrix(float_j_t work1[][3], int row, int col) {$/;"	f
