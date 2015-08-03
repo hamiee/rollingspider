@@ -98,7 +98,7 @@ void PRINT_NOTICE(){
             "fuzzytable [system] [arr FUZZY_TABLE] \n"
             "throttle [0~10000] : offset throttle value\n"
             "rpycalib : roll pitch yaw calibration \n"
-            "bool [EKF,throttle,cancel,print] [1,0] \n"
+            "bool [EKF,throttle,cancel,print,ics] [1,0] \n"
           );
 }
 
@@ -139,7 +139,7 @@ bool B_throttle= true;
 bool B_EKF=true;
 bool B_cancel=true;
 bool B_print=true;
-
+bool B_ics=true;
 
 timer_t timer1;
 int TIMER_EMER =1;
@@ -271,10 +271,18 @@ void main_control_code  (int signum){
 
     static float_j_t thrust_eq_K=0.0001633333;
     /* thrust rotation abs force*/
-    float_j_t x_dd= (sensor.ICS_accX+target[XAXIS])*mass/(thrust_eq_K*throttle);
-    float_j_t y_dd= (sensor.ICS_accY+target[YAXIS])*mass/(thrust_eq_K*throttle);
-    //float_j_t z_dd= (-sensor.ICS_accZ+target[ZAXIS])*mass/(thrust_eq_K*throttle);
-    float_j_t z_dd= (sensor.ICS_accZ+GRAVITY)*mass/(thrust_eq_K*throttle);
+    float_j_t x_dd,y_dd,z_dd;
+    if(B_ics==true){
+        x_dd= (sensor.ICS_accX+target[XAXIS])*mass/(thrust_eq_K*throttle);
+        y_dd= (sensor.ICS_accY+target[YAXIS])*mass/(thrust_eq_K*throttle);
+        //float_j_t z_dd= (-sensor.ICS_accZ+target[ZAXIS])*mass/(thrust_eq_K*throttle);
+        z_dd= (sensor.ICS_accZ+GRAVITY)*mass/(thrust_eq_K*throttle);
+    }else{
+        x_dd= (target[XAXIS])*mass/(thrust_eq_K*throttle);
+        y_dd= (target[YAXIS])*mass/(thrust_eq_K*throttle);
+        //float_j_t z_dd= (-sensor.ICS_accZ+target[ZAXIS])*mass/(thrust_eq_K*throttle);
+        z_dd= (GRAVITY*2)*mass/(thrust_eq_K*throttle);
+    }
 
     battery_read(&battery_adc);
     /* fuzzy battery to k  */
@@ -1640,6 +1648,12 @@ int main(int argc, char* argv[]){
                 B_cancel=true;
             }else{
                 B_cancel=false;
+            }
+        }else if(strcmp(buf,"ics")==0){
+            if(nn==1){
+                B_ics=true;
+            }else{
+                B_ics=false;
             }
         }
 
